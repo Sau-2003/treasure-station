@@ -1,0 +1,3618 @@
+{
+    "Station 1": [
+        {
+            "qA": "Who was known as the Maid of Orl\u00e9ans?",
+            "aA": "Joan of Arc",
+            "qB": "What is 249 \u00d7 2?",
+            "aB": "498"
+        },
+        {
+            "qA": "What is 281 \u00d7 2?",
+            "aA": "562",
+            "qB": "What is 384 + 384?",
+            "aB": "768"
+        },
+        {
+            "qA": "What is 115 + 115?",
+            "aA": "230",
+            "qB": "What does GPS stand for?",
+            "aB": "Global Positioning System"
+        },
+        {
+            "qA": "What is 266 + 266?",
+            "aA": "532",
+            "qB": "What does CSS primarily control on a web page?",
+            "aB": "Presentation and styling"
+        },
+        {
+            "qA": "What type of storage uses spinning magnetic disks?",
+            "aA": "Hard disk drive",
+            "qB": "What is 144 \u00d7 2?",
+            "aB": "288"
+        },
+        {
+            "qA": "What is 38 \u00d7 2?",
+            "aA": "76",
+            "qB": "Which animal is known for its long trunk?",
+            "aB": "Elephant"
+        },
+        {
+            "qA": "What is 266 \u00d7 2?",
+            "aA": "532",
+            "qB": "What is 239 + 239?",
+            "aB": "478"
+        },
+        {
+            "qA": "What is a 14-line poem commonly called?",
+            "aA": "Sonnet",
+            "qB": "What is 254 + 254?",
+            "aB": "508"
+        },
+        {
+            "qA": "What is 192 \u00d7 2?",
+            "aA": "384",
+            "qB": "What is 217 + 217?",
+            "aB": "434"
+        },
+        {
+            "qA": "What is 261 + 261?",
+            "aA": "522",
+            "qB": "What is the chemical symbol for iron?",
+            "aB": "Fe"
+        },
+        {
+            "qA": "What is 192 + 192?",
+            "aA": "384",
+            "qB": "Which planet is known for having a Great Red Spot?",
+            "aB": "Jupiter"
+        },
+        {
+            "qA": "Which Indian city is famous for the Victoria Memorial?",
+            "aA": "Kolkata",
+            "qB": "What is a haiku traditionally associated with?",
+            "aB": "Japan"
+        },
+        {
+            "qA": "Which bird is commonly associated with Antarctica?",
+            "aA": "Penguin",
+            "qB": "What is 175 \u00d7 2?",
+            "aB": "350"
+        },
+        {
+            "qA": "What is the capital of Spain?",
+            "aA": "Madrid",
+            "qB": "Which country has the city of Cape Town?",
+            "aB": "South Africa"
+        },
+        {
+            "qA": "What is 328 + 328?",
+            "aA": "656",
+            "qB": "What is 149 + 149?",
+            "aB": "298"
+        },
+        {
+            "qA": "What is 163 \u00d7 2?",
+            "aA": "326",
+            "qB": "What is 263 + 263?",
+            "aB": "526"
+        },
+        {
+            "qA": "What is 60 \u00d7 2?",
+            "aA": "120",
+            "qB": "What is 46 + 46?",
+            "aB": "92"
+        },
+        {
+            "qA": "What is 391 + 391?",
+            "aA": "782",
+            "qB": "What is 287 \u00d7 2?",
+            "aB": "574"
+        },
+        {
+            "qA": "What is 348 + 348?",
+            "aA": "696",
+            "qB": "Who wrote The Great Gatsby?",
+            "aB": "F. Scott Fitzgerald"
+        },
+        {
+            "qA": "What is 190 \u00d7 2?",
+            "aA": "380",
+            "qB": "What does USB stand for?",
+            "aB": "Universal Serial Bus"
+        },
+        {
+            "qA": "What is 79 \u00d7 2?",
+            "aA": "158",
+            "qB": "What is 55 + 55?",
+            "aB": "110"
+        },
+        {
+            "qA": "What is 337 + 337?",
+            "aA": "674",
+            "qB": "What is 374 + 374?",
+            "aB": "748"
+        },
+        {
+            "qA": "What is 218 \u00d7 2?",
+            "aA": "436",
+            "qB": "How many players are on a cricket team?",
+            "aB": "11"
+        },
+        {
+            "qA": "What is the world's largest coral reef system?",
+            "aA": "Great Barrier Reef",
+            "qB": "What is the common file extension for a PDF document?",
+            "aB": ".pdf"
+        },
+        {
+            "qA": "What is 41 + 41?",
+            "aA": "82",
+            "qB": "Which planet is farthest from the Sun?",
+            "aB": "Neptune"
+        },
+        {
+            "qA": "What is 206 \u00d7 2?",
+            "aA": "412",
+            "qB": "What is 343 + 343?",
+            "aB": "686"
+        },
+        {
+            "qA": "What is 144 + 144?",
+            "aA": "288",
+            "qB": "Which river is the longest in South America?",
+            "aB": "Amazon River"
+        },
+        {
+            "qA": "What is 140 \u00d7 2?",
+            "aA": "280",
+            "qB": "What is 20 + 20?",
+            "aB": "40"
+        },
+        {
+            "qA": "What is 56 + 56?",
+            "aA": "112",
+            "qB": "What does RAM stand for?",
+            "aB": "Random Access Memory"
+        },
+        {
+            "qA": "What is the capital of Sri Lanka?",
+            "aA": "Sri Jayawardenepura Kotte",
+            "qB": "What is the national fruit of India?",
+            "aB": "Mango"
+        },
+        {
+            "qA": "What is 313 + 313?",
+            "aA": "626",
+            "qB": "What is 29 + 29?",
+            "aB": "58"
+        },
+        {
+            "qA": "What is a long period with unusually little rainfall called?",
+            "aA": "Drought",
+            "qB": "Which bird is the largest living bird?",
+            "aB": "Ostrich"
+        },
+        {
+            "qA": "What is the capital of Bhutan?",
+            "aA": "Thimphu",
+            "qB": "What is 18 \u00d7 2?",
+            "aB": "36"
+        },
+        {
+            "qA": "What is 6 + 6?",
+            "aA": "12",
+            "qB": "What is 245 + 245?",
+            "aB": "490"
+        },
+        {
+            "qA": "What is 240 \u00d7 2?",
+            "aA": "480",
+            "qB": "Which country has the city of Dublin?",
+            "aB": "Ireland"
+        },
+        {
+            "qA": "What is 267 + 267?",
+            "aA": "534",
+            "qB": "Which organ produces insulin?",
+            "aB": "Pancreas"
+        },
+        {
+            "qA": "What is 375 + 375?",
+            "aA": "750",
+            "qB": "What symbol is commonly used in an email address?",
+            "aB": "@"
+        },
+        {
+            "qA": "Which country is home to Machu Picchu?",
+            "aA": "Peru",
+            "qB": "What is 105 \u00d7 2?",
+            "aB": "210"
+        },
+        {
+            "qA": "What gas do humans need for respiration?",
+            "aA": "Oxygen",
+            "qB": "What is composting?",
+            "aB": "Decomposing organic waste into a soil amendment"
+        },
+        {
+            "qA": "What is 132 \u00d7 2?",
+            "aA": "264",
+            "qB": "What is 169 + 169?",
+            "aB": "338"
+        },
+        {
+            "qA": "What is a large rotating tropical storm called in the Atlantic?",
+            "aA": "Hurricane",
+            "qB": "What is 301 \u00d7 2?",
+            "aB": "602"
+        },
+        {
+            "qA": "What is 54 \u00d7 2?",
+            "aA": "108",
+            "qB": "What is 68 + 68?",
+            "aB": "136"
+        },
+        {
+            "qA": "What is 65 \u00d7 2?",
+            "aA": "130",
+            "qB": "What is 330 + 330?",
+            "aB": "660"
+        },
+        {
+            "qA": "What is 72 + 72?",
+            "aA": "144",
+            "qB": "What is 329 + 329?",
+            "aB": "658"
+        },
+        {
+            "qA": "What is the Indian bowed string instrument associated with Hindustani music?",
+            "aA": "Sarangi",
+            "qB": "What is the process of a gas changing directly into a solid called?",
+            "aB": "Deposition"
+        },
+        {
+            "qA": "What is 212 + 212?",
+            "aA": "424",
+            "qB": "What is 226 + 226?",
+            "aB": "452"
+        },
+        {
+            "qA": "How many points is a touchdown worth in American football before any extra points?",
+            "aA": "6",
+            "qB": "Which particle has no electric charge?",
+            "aB": "Neutron"
+        },
+        {
+            "qA": "What is the unit of electric current?",
+            "aA": "Ampere",
+            "qB": "What is a database?",
+            "aB": "An organized collection of data"
+        },
+        {
+            "qA": "What color jersey is worn by the leader of the Tour de France overall classification?",
+            "aA": "Yellow",
+            "qB": "What is 165 + 165?",
+            "aB": "330"
+        },
+        {
+            "qA": "What is 160 \u00d7 2?",
+            "aA": "320",
+            "qB": "What is 265 \u00d7 2?",
+            "aB": "530"
+        },
+        {
+            "qA": "What is 23 + 23?",
+            "aA": "46",
+            "qB": "What is 297 + 297?",
+            "aB": "594"
+        },
+        {
+            "qA": "What is 280 \u00d7 2?",
+            "aA": "560",
+            "qB": "Which is India's largest state by area?",
+            "aB": "Rajasthan"
+        },
+        {
+            "qA": "What is 179 \u00d7 2?",
+            "aA": "358",
+            "qB": "What is 87 \u00d7 2?",
+            "aB": "174"
+        },
+        {
+            "qA": "Who wrote Pride and Prejudice?",
+            "aA": "Jane Austen",
+            "qB": "What is 158 \u00d7 2?",
+            "aB": "316"
+        },
+        {
+            "qA": "What is 178 \u00d7 2?",
+            "aA": "356",
+            "qB": "What is molten rock on Earth's surface called?",
+            "aB": "Lava"
+        },
+        {
+            "qA": "What is 344 + 344?",
+            "aA": "688",
+            "qB": "What is 336 + 336?",
+            "aB": "672"
+        },
+        {
+            "qA": "What is 125 + 125?",
+            "aA": "250",
+            "qB": "Which festival is known for colors?",
+            "aB": "Holi"
+        },
+        {
+            "qA": "What is 226 \u00d7 2?",
+            "aA": "452",
+            "qB": "What is 303 + 303?",
+            "aB": "606"
+        },
+        {
+            "qA": "What is 248 + 248?",
+            "aA": "496",
+            "qB": "What is 163 + 163?",
+            "aB": "326"
+        },
+        {
+            "qA": "What is 166 \u00d7 2?",
+            "aA": "332",
+            "qB": "What is the process of a solid changing directly into a gas called?",
+            "aB": "Sublimation"
+        },
+        {
+            "qA": "What is 84 + 84?",
+            "aA": "168",
+            "qB": "What is 30 + 30?",
+            "aB": "60"
+        },
+        {
+            "qA": "What is 45 + 55?",
+            "aA": "100",
+            "qB": "Which particle has a positive electric charge?",
+            "aB": "Proton"
+        },
+        {
+            "qA": "What is 154 + 154?",
+            "aA": "308",
+            "qB": "What is 201 + 201?",
+            "aB": "402"
+        },
+        {
+            "qA": "What is 137 + 137?",
+            "aA": "274",
+            "qB": "Which sport has a goalkeeper and a penalty corner?",
+            "aB": "Field hockey"
+        },
+        {
+            "qA": "Which planet is known as the Red Planet?",
+            "aA": "Mars",
+            "qB": "What is 383 + 383?",
+            "aB": "766"
+        },
+        {
+            "qA": "How many holes are played in a standard round of golf?",
+            "aA": "18",
+            "qB": "Who wrote The Odyssey?",
+            "aB": "Homer"
+        },
+        {
+            "qA": "How many Grand Slam tournaments are there in tennis each year?",
+            "aA": "4",
+            "qB": "What instrument measures atmospheric pressure?",
+            "aB": "Barometer"
+        },
+        {
+            "qA": "What is 253 + 253?",
+            "aA": "506",
+            "qB": "Who was the first Mughal emperor in India?",
+            "aB": "Babur"
+        },
+        {
+            "qA": "What is 365 + 365?",
+            "aA": "730",
+            "qB": "What is 260 \u00d7 2?",
+            "aB": "520"
+        },
+        {
+            "qA": "What is 143 \u00d7 2?",
+            "aA": "286",
+            "qB": "What is the boundary between two air masses called?",
+            "aB": "Front"
+        },
+        {
+            "qA": "Who wrote The God of Small Things?",
+            "aA": "Arundhati Roy",
+            "qB": "What is 251 + 251?",
+            "aB": "502"
+        },
+        {
+            "qA": "What is 71 \u00d7 2?",
+            "aA": "142",
+            "qB": "What does Bluetooth provide?",
+            "aB": "Short-range wireless communication"
+        },
+        {
+            "qA": "What is 216 \u00d7 2?",
+            "aA": "432",
+            "qB": "What is 272 \u00d7 2?",
+            "aB": "544"
+        },
+        {
+            "qA": "How many points is a free throw worth in basketball?",
+            "aA": "1",
+            "qB": "What is 238 \u00d7 2?",
+            "aB": "476"
+        },
+        {
+            "qA": "What is 46 \u00d7 2?",
+            "aA": "92",
+            "qB": "What is 152 + 152?",
+            "aB": "304"
+        }
+    ],
+    "Station 2": [
+        {
+            "qA": "What is the chemical symbol for silver?",
+            "aA": "Ag",
+            "qB": "What is 142 + 142?",
+            "aB": "284"
+        },
+        {
+            "qA": "What is 2 \u00d7 2?",
+            "aA": "4",
+            "qB": "Which country has the city of Bern?",
+            "aB": "Switzerland"
+        },
+        {
+            "qA": "What is 155 + 155?",
+            "aA": "310",
+            "qB": "What is 300 \u00d7 2?",
+            "aB": "600"
+        },
+        {
+            "qA": "What is 246 + 246?",
+            "aA": "492",
+            "qB": "What is 161 \u00d7 2?",
+            "aB": "322"
+        },
+        {
+            "qA": "What is 107 \u00d7 2?",
+            "aA": "214",
+            "qB": "What is 157 \u00d7 2?",
+            "aB": "314"
+        },
+        {
+            "qA": "What is 301 + 301?",
+            "aA": "602",
+            "qB": "What is 346 + 346?",
+            "aB": "692"
+        },
+        {
+            "qA": "What symbol indicates silence in written music?",
+            "aA": "Rest",
+            "qB": "What is 379 + 379?",
+            "aB": "758"
+        },
+        {
+            "qA": "How many degrees are in a full circle?",
+            "aA": "360",
+            "qB": "Which sport is played at Wimbledon?",
+            "aB": "Tennis"
+        },
+        {
+            "qA": "Which medieval route connected East and West through trade?",
+            "aA": "Silk Road",
+            "qB": "What does JPEG refer to?",
+            "aB": "An image file format"
+        },
+        {
+            "qA": "What is 248 \u00d7 2?",
+            "aA": "496",
+            "qB": "What is a group of five musicians called?",
+            "aB": "Quintet"
+        },
+        {
+            "qA": "Which country has the city of Copenhagen?",
+            "aA": "Denmark",
+            "qB": "What is 293 \u00d7 2?",
+            "aB": "586"
+        },
+        {
+            "qA": "Which Indian city is famous for the India Gate?",
+            "aA": "New Delhi",
+            "qB": "Which instrument is played with a bow and has four strings?",
+            "aB": "Violin"
+        },
+        {
+            "qA": "What is 132 + 132?",
+            "aA": "264",
+            "qB": "What is a URL used for?",
+            "aB": "Identifying a resource on the web"
+        },
+        {
+            "qA": "Which is the largest continent?",
+            "aA": "Asia",
+            "qB": "What is the largest country by land area?",
+            "aB": "Russia"
+        },
+        {
+            "qA": "What is a musical composition for three performers called?",
+            "aA": "Trio",
+            "qB": "Which is the largest ocean on Earth?",
+            "aB": "Pacific Ocean"
+        },
+        {
+            "qA": "What is 312 + 312?",
+            "aA": "624",
+            "qB": "What is a spreadsheet cell?",
+            "aB": "The intersection of a row and a column"
+        },
+        {
+            "qA": "What is 195 \u00d7 2?",
+            "aA": "390",
+            "qB": "What is 11 \u00d7 2?",
+            "aB": "22"
+        },
+        {
+            "qA": "What is 225 \u00d7 2?",
+            "aA": "450",
+            "qB": "What is 286 + 286?",
+            "aB": "572"
+        },
+        {
+            "qA": "What is encryption?",
+            "aA": "Transforming information to protect it from unauthorized access",
+            "qB": "What is a group of fish commonly called?",
+            "aB": "School"
+        },
+        {
+            "qA": "What is 136 \u00d7 2?",
+            "aA": "272",
+            "qB": "What is 144 \u00f7 12?",
+            "aB": "12"
+        },
+        {
+            "qA": "What is 332 + 332?",
+            "aA": "664",
+            "qB": "What is 124 \u00d7 2?",
+            "aB": "248"
+        },
+        {
+            "qA": "What is 206 + 206?",
+            "aA": "412",
+            "qB": "What is the capital of Germany?",
+            "aB": "Berlin"
+        },
+        {
+            "qA": "Which instrument has black and white keys?",
+            "aA": "Piano",
+            "qB": "What is the chemical symbol for copper?",
+            "aB": "Cu"
+        },
+        {
+            "qA": "What is 25 \u00d7 2?",
+            "aA": "50",
+            "qB": "What is 291 + 291?",
+            "aB": "582"
+        },
+        {
+            "qA": "What is 393 + 393?",
+            "aA": "786",
+            "qB": "What is 357 + 357?",
+            "aB": "714"
+        },
+        {
+            "qA": "What is 124 + 124?",
+            "aA": "248",
+            "qB": "What is 227 \u00d7 2?",
+            "aB": "454"
+        },
+        {
+            "qA": "Which Indian city hosts the Gateway of India?",
+            "aA": "Mumbai",
+            "qB": "Which vitamin is commonly produced in skin through sunlight exposure?",
+            "aB": "Vitamin D"
+        },
+        {
+            "qA": "What is 399 + 399?",
+            "aA": "798",
+            "qB": "What is 157 + 157?",
+            "aB": "314"
+        },
+        {
+            "qA": "What is 66 \u00d7 2?",
+            "aA": "132",
+            "qB": "Which city is known as the City of Joy?",
+            "aB": "Kolkata"
+        },
+        {
+            "qA": "What is 103 + 103?",
+            "aA": "206",
+            "qB": "What is an ecosystem?",
+            "aB": "A community of organisms and their environment"
+        },
+        {
+            "qA": "What is 290 \u00d7 2?",
+            "aA": "580",
+            "qB": "Which family does the trumpet belong to?",
+            "aB": "Brass"
+        },
+        {
+            "qA": "What is 145 \u00d7 2?",
+            "aA": "290",
+            "qB": "Which ancient wonder was located in Alexandria?",
+            "aB": "Lighthouse of Alexandria"
+        },
+        {
+            "qA": "What is 169 \u00d7 2?",
+            "aA": "338",
+            "qB": "What is 51 + 51?",
+            "aB": "102"
+        },
+        {
+            "qA": "What is 2 + 2?",
+            "aA": "4",
+            "qB": "What is 130 + 130?",
+            "aB": "260"
+        },
+        {
+            "qA": "What is 224 + 224?",
+            "aA": "448",
+            "qB": "What is 122 \u00d7 2?",
+            "aB": "244"
+        },
+        {
+            "qA": "What is 193 \u00d7 2?",
+            "aA": "386",
+            "qB": "What is 166 + 166?",
+            "aB": "332"
+        },
+        {
+            "qA": "How many sides does a pentagon have?",
+            "aA": "5",
+            "qB": "What is 57 \u00d7 2?",
+            "aB": "114"
+        },
+        {
+            "qA": "Which company developed the Chrome browser?",
+            "aA": "Google",
+            "qB": "What is 268 \u00d7 2?",
+            "aB": "536"
+        },
+        {
+            "qA": "What is 231 + 231?",
+            "aA": "462",
+            "qB": "What is 47 + 47?",
+            "aB": "94"
+        },
+        {
+            "qA": "What is 162 + 162?",
+            "aA": "324",
+            "qB": "Which sport uses a foil, \u00e9p\u00e9e, or sabre?",
+            "aB": "Fencing"
+        },
+        {
+            "qA": "What is 221 + 221?",
+            "aA": "442",
+            "qB": "How many lanes are commonly used in an Olympic 100-meter final?",
+            "aB": "8"
+        },
+        {
+            "qA": "What is 98 + 98?",
+            "aA": "196",
+            "qB": "What is a QR code commonly used for?",
+            "aB": "Encoding information that can be scanned"
+        },
+        {
+            "qA": "What is 389 + 389?",
+            "aA": "778",
+            "qB": "What is 64 + 64?",
+            "aB": "128"
+        },
+        {
+            "qA": "What is 200 \u00d7 2?",
+            "aA": "400",
+            "qB": "What is 1,000 minus 1?",
+            "aB": "999"
+        },
+        {
+            "qA": "What force pulls objects toward Earth?",
+            "aA": "Gravity",
+            "qB": "What is 145 + 145?",
+            "aB": "290"
+        },
+        {
+            "qA": "What is 359 + 359?",
+            "aA": "718",
+            "qB": "What is 129 \u00d7 2?",
+            "aB": "258"
+        },
+        {
+            "qA": "What is 133 + 133?",
+            "aA": "266",
+            "qB": "What is 138 + 138?",
+            "aB": "276"
+        },
+        {
+            "qA": "Which part of the eye controls the amount of light entering?",
+            "aA": "Iris",
+            "qB": "What is 75 + 25?",
+            "aB": "100"
+        },
+        {
+            "qA": "What is 5 \u00d7 11?",
+            "aA": "55",
+            "qB": "Which ancient city was buried by Mount Vesuvius?",
+            "aB": "Pompeii"
+        },
+        {
+            "qA": "Which sport uses a shuttlecock?",
+            "aA": "Badminton",
+            "qB": "What is 249 + 249?",
+            "aB": "498"
+        },
+        {
+            "qA": "What is 135 + 135?",
+            "aA": "270",
+            "qB": "What is 364 + 364?",
+            "aB": "728"
+        },
+        {
+            "qA": "What is 245 \u00d7 2?",
+            "aA": "490",
+            "qB": "What animal is known for changing its color for camouflage?",
+            "aB": "Chameleon"
+        },
+        {
+            "qA": "What is the freezing point of water in Celsius?",
+            "aA": "0\u00b0C",
+            "qB": "Which monument is famous for its four minarets in Hyderabad?",
+            "aB": "Charminar"
+        },
+        {
+            "qA": "What is 123 \u00d7 2?",
+            "aA": "246",
+            "qB": "What is 7 + 7?",
+            "aB": "14"
+        },
+        {
+            "qA": "What does URL stand for?",
+            "aA": "Uniform Resource Locator",
+            "qB": "Which famous structure was built as a mausoleum by Shah Jahan?",
+            "aB": "Taj Mahal"
+        },
+        {
+            "qA": "What is 203 + 203?",
+            "aA": "406",
+            "qB": "Which ancient wonder was located in Babylon?",
+            "aB": "Hanging Gardens of Babylon"
+        },
+        {
+            "qA": "What is 72 \u00d7 2?",
+            "aA": "144",
+            "qB": "Which Indian classical music tradition is associated mainly with southern India?",
+            "aB": "Carnatic music"
+        },
+        {
+            "qA": "Who wrote Gitanjali?",
+            "aA": "Rabindranath Tagore",
+            "qB": "What is the chemical symbol for calcium?",
+            "aB": "Ca"
+        },
+        {
+            "qA": "What is the chemical symbol for carbon?",
+            "aA": "C",
+            "qB": "What is 73 + 73?",
+            "aB": "146"
+        },
+        {
+            "qA": "What is 194 \u00d7 2?",
+            "aA": "388",
+            "qB": "What is 27 \u00d7 2?",
+            "aB": "54"
+        },
+        {
+            "qA": "What is 111 + 111?",
+            "aA": "222",
+            "qB": "What is the main gas humans breathe out?",
+            "aB": "Carbon dioxide"
+        },
+        {
+            "qA": "What is 339 + 339?",
+            "aA": "678",
+            "qB": "What is 386 + 386?",
+            "aB": "772"
+        },
+        {
+            "qA": "What is 370 + 370?",
+            "aA": "740",
+            "qB": "Which classical dance form is associated with Odisha?",
+            "aB": "Odissi"
+        },
+        {
+            "qA": "Which country has the Great Barrier Reef?",
+            "aA": "Australia",
+            "qB": "What is 234 \u00d7 2?",
+            "aB": "468"
+        },
+        {
+            "qA": "What is 77 + 77?",
+            "aA": "154",
+            "qB": "Who sculpted David?",
+            "aB": "Michelangelo"
+        },
+        {
+            "qA": "What is the speed of a piece of music called?",
+            "aA": "Tempo",
+            "qB": "Who painted The Last Supper?",
+            "aB": "Leonardo da Vinci"
+        },
+        {
+            "qA": "What is 385 + 385?",
+            "aA": "770",
+            "qB": "What is the perimeter of a rectangle 3 by 7?",
+            "aB": "20 units"
+        },
+        {
+            "qA": "What is 9 \u00d7 8?",
+            "aA": "72",
+            "qB": "What is 90 - 37?",
+            "aB": "53"
+        },
+        {
+            "qA": "What is 115 \u00d7 2?",
+            "aA": "230",
+            "qB": "Which sport features the pommel horse?",
+            "aB": "Gymnastics"
+        },
+        {
+            "qA": "What is frozen precipitation that falls as ice crystals?",
+            "aA": "Snow",
+            "qB": "What is 299 + 299?",
+            "aB": "598"
+        },
+        {
+            "qA": "What is 238 + 238?",
+            "aA": "476",
+            "qB": "What does 'forte' mean in music?",
+            "aB": "Loud"
+        },
+        {
+            "qA": "What is 231 \u00d7 2?",
+            "aA": "462",
+            "qB": "Which blood cells carry oxygen?",
+            "aB": "Red blood cells"
+        },
+        {
+            "qA": "What is 280 + 280?",
+            "aA": "560",
+            "qB": "What are organisms that break down dead material called?",
+            "aB": "Decomposers"
+        },
+        {
+            "qA": "What is 211 + 211?",
+            "aA": "422",
+            "qB": "What is 83 \u00d7 2?",
+            "aB": "166"
+        },
+        {
+            "qA": "What is 81 \u00d7 2?",
+            "aA": "162",
+            "qB": "What is 307 + 307?",
+            "aB": "614"
+        }
+    ],
+    "Station 3": [
+        {
+            "qA": "What is 155 \u00d7 2?",
+            "aA": "310",
+            "qB": "What type of energy comes from moving air?",
+            "aB": "Wind energy"
+        },
+        {
+            "qA": "What is 234 + 234?",
+            "aA": "468",
+            "qB": "What is 207 + 207?",
+            "aB": "414"
+        },
+        {
+            "qA": "What is 279 \u00d7 2?",
+            "aA": "558",
+            "qB": "What is 10% of 350?",
+            "aB": "35"
+        },
+        {
+            "qA": "What is 94 \u00d7 2?",
+            "aA": "188",
+            "qB": "What is 118 \u00d7 2?",
+            "aB": "236"
+        },
+        {
+            "qA": "What is a species at risk of extinction called?",
+            "aA": "Endangered species",
+            "qB": "What is 205 + 205?",
+            "aB": "410"
+        },
+        {
+            "qA": "What is 110 \u00d7 2?",
+            "aA": "220",
+            "qB": "What is the capital of Japan?",
+            "aB": "Tokyo"
+        },
+        {
+            "qA": "What is the capital of Thailand?",
+            "aA": "Bangkok",
+            "qB": "What pigment gives plants their green color?",
+            "aB": "Chlorophyll"
+        },
+        {
+            "qA": "What is 31 + 31?",
+            "aA": "62",
+            "qB": "What is 311 + 311?",
+            "aB": "622"
+        },
+        {
+            "qA": "What does QR stand for in QR code?",
+            "aA": "Quick Response",
+            "qB": "What part of a plant absorbs water from the soil?",
+            "aB": "Roots"
+        },
+        {
+            "qA": "What is 237 \u00d7 2?",
+            "aA": "474",
+            "qB": "What is 69 + 69?",
+            "aB": "138"
+        },
+        {
+            "qA": "What is 134 \u00d7 2?",
+            "aA": "268",
+            "qB": "What is 167 \u00d7 2?",
+            "aB": "334"
+        },
+        {
+            "qA": "What is 195 + 195?",
+            "aA": "390",
+            "qB": "What is 164 \u00d7 2?",
+            "aB": "328"
+        },
+        {
+            "qA": "Who wrote The Adventures of Tom Sawyer?",
+            "aA": "Mark Twain",
+            "qB": "What is the movement of water through soil and rocks called?",
+            "aB": "Infiltration"
+        },
+        {
+            "qA": "Which explorer is associated with the first voyage around the world completed by his expedition?",
+            "aA": "Ferdinand Magellan",
+            "qB": "Which sport uses wickets?",
+            "aB": "Cricket"
+        },
+        {
+            "qA": "What is a baby dog called?",
+            "aA": "Puppy",
+            "qB": "What is 197 \u00d7 2?",
+            "aB": "394"
+        },
+        {
+            "qA": "What is 331 + 331?",
+            "aA": "662",
+            "qB": "What part of a plant usually carries out most photosynthesis?",
+            "aB": "Leaves"
+        },
+        {
+            "qA": "What is 198 \u00d7 2?",
+            "aA": "396",
+            "qB": "What is 113 + 113?",
+            "aB": "226"
+        },
+        {
+            "qA": "What is 170 \u00d7 2?",
+            "aA": "340",
+            "qB": "What does HTML stand for?",
+            "aB": "HyperText Markup Language"
+        },
+        {
+            "qA": "What is 219 \u00d7 2?",
+            "aA": "438",
+            "qB": "What is the study of earthquakes called?",
+            "aB": "Seismology"
+        },
+        {
+            "qA": "What is 278 \u00d7 2?",
+            "aA": "556",
+            "qB": "Who developed the theory of relativity?",
+            "aB": "Albert Einstein"
+        },
+        {
+            "qA": "Who wrote The Divine Comedy?",
+            "aA": "Dante Alighieri",
+            "qB": "Which Mughal emperor commissioned the Taj Mahal?",
+            "aB": "Shah Jahan"
+        },
+        {
+            "qA": "What is 395 + 395?",
+            "aA": "790",
+            "qB": "What is 338 + 338?",
+            "aB": "676"
+        },
+        {
+            "qA": "What is 296 \u00d7 2?",
+            "aA": "592",
+            "qB": "What is 149 \u00d7 2?",
+            "aB": "298"
+        },
+        {
+            "qA": "What is 172 \u00d7 2?",
+            "aA": "344",
+            "qB": "Who is traditionally credited with reaching the South Pole first?",
+            "aB": "Roald Amundsen"
+        },
+        {
+            "qA": "What is 191 + 191?",
+            "aA": "382",
+            "qB": "What is 282 \u00d7 2?",
+            "aB": "564"
+        },
+        {
+            "qA": "Which is India's smallest state by area?",
+            "aA": "Goa",
+            "qB": "What is 215 + 215?",
+            "aB": "430"
+        },
+        {
+            "qA": "What is the capital of Australia?",
+            "aA": "Canberra",
+            "qB": "Which country has the city of Kyoto?",
+            "aB": "Japan"
+        },
+        {
+            "qA": "What is 200 \u00f7 10?",
+            "aA": "20",
+            "qB": "What is the next even number after 48?",
+            "aB": "50"
+        },
+        {
+            "qA": "What is 173 + 173?",
+            "aA": "346",
+            "qB": "Which Indian city is famous for the Meenakshi Temple?",
+            "aB": "Madurai"
+        },
+        {
+            "qA": "What is 203 \u00d7 2?",
+            "aA": "406",
+            "qB": "What is 85 \u00d7 2?",
+            "aB": "170"
+        },
+        {
+            "qA": "What is 1000 \u00f7 100?",
+            "aA": "10",
+            "qB": "How many points is a three-point field goal worth in basketball?",
+            "aB": "3"
+        },
+        {
+            "qA": "Which city is known as the Silicon Valley of India?",
+            "aA": "Bengaluru",
+            "qB": "What is 131 \u00d7 2?",
+            "aB": "262"
+        },
+        {
+            "qA": "What is 222 + 222?",
+            "aA": "444",
+            "qB": "What is the movement of water from Earth's surface into the atmosphere called?",
+            "aB": "Evaporation"
+        },
+        {
+            "qA": "What is 262 + 262?",
+            "aA": "524",
+            "qB": "What is 35 \u00d7 2?",
+            "aB": "70"
+        },
+        {
+            "qA": "Which country has the city of Munich?",
+            "aA": "Germany",
+            "qB": "What is 214 + 214?",
+            "aB": "428"
+        },
+        {
+            "qA": "What is the nearest star to Earth?",
+            "aA": "Sun",
+            "qB": "What is 396 + 396?",
+            "aB": "792"
+        },
+        {
+            "qA": "What is the perimeter of a square with side 5 units?",
+            "aA": "20 units",
+            "qB": "What is 47 \u00d7 2?",
+            "aB": "94"
+        },
+        {
+            "qA": "What is the capital of India?",
+            "aA": "New Delhi",
+            "qB": "What is 121 \u00d7 2?",
+            "aB": "242"
+        },
+        {
+            "qA": "What is 325 + 325?",
+            "aA": "650",
+            "qB": "What is 0.5 as a fraction?",
+            "aB": "1/2"
+        },
+        {
+            "qA": "What is 242 \u00d7 2?",
+            "aA": "484",
+            "qB": "Which organ controls most body activities?",
+            "aB": "Brain"
+        },
+        {
+            "qA": "Which civilization is associated with Harappa and Mohenjo-daro?",
+            "aA": "Indus Valley Civilization",
+            "qB": "What is 204 + 204?",
+            "aB": "408"
+        },
+        {
+            "qA": "Which mammal is capable of true sustained flight?",
+            "aA": "Bat",
+            "qB": "What is 10 \u00d7 2?",
+            "aB": "20"
+        },
+        {
+            "qA": "What is a large rotating tropical storm called in the northwest Pacific?",
+            "aA": "Typhoon",
+            "qB": "What is 334 + 334?",
+            "aB": "668"
+        },
+        {
+            "qA": "What is a musical composition for four performers called?",
+            "aA": "Quartet",
+            "qB": "What is 269 \u00d7 2?",
+            "aB": "538"
+        },
+        {
+            "qA": "What is 67 \u00d7 2?",
+            "aA": "134",
+            "qB": "What is 264 \u00d7 2?",
+            "aB": "528"
+        },
+        {
+            "qA": "What is 23 \u00d7 2?",
+            "aA": "46",
+            "qB": "Who wrote Arthashastra?",
+            "aB": "Kautilya"
+        },
+        {
+            "qA": "What is the center of an atom called?",
+            "aA": "Nucleus",
+            "qB": "What is 151 \u00d7 2?",
+            "aB": "302"
+        },
+        {
+            "qA": "What is 175 + 175?",
+            "aA": "350",
+            "qB": "What is 86 + 86?",
+            "aB": "172"
+        },
+        {
+            "qA": "Which brothers are associated with the first powered airplane flight?",
+            "aA": "Wright brothers",
+            "qB": "What is 271 + 271?",
+            "aB": "542"
+        },
+        {
+            "qA": "Which mammal is known for using echolocation?",
+            "aA": "Bat",
+            "qB": "What is 341 + 341?",
+            "aB": "682"
+        },
+        {
+            "qA": "What is 262 \u00d7 2?",
+            "aA": "524",
+            "qB": "What is 289 + 289?",
+            "aB": "578"
+        },
+        {
+            "qA": "Which sport uses a net and a volleyball?",
+            "aA": "Volleyball",
+            "qB": "What is the square root of 81?",
+            "aB": "9"
+        },
+        {
+            "qA": "What is 120 \u00d7 2?",
+            "aA": "240",
+            "qB": "How many squares are on a chessboard?",
+            "aB": "64"
+        },
+        {
+            "qA": "What do bees collect from flowers to make honey?",
+            "aA": "Nectar",
+            "qB": "What is 165 \u00d7 2?",
+            "aB": "330"
+        },
+        {
+            "qA": "What is 77 \u00d7 2?",
+            "aA": "154",
+            "qB": "What is 380 + 380?",
+            "aB": "760"
+        },
+        {
+            "qA": "What is 181 + 181?",
+            "aA": "362",
+            "qB": "What is 4 + 4?",
+            "aB": "8"
+        },
+        {
+            "qA": "What is the capital of Italy?",
+            "aA": "Rome",
+            "qB": "What is the process by which liquid water becomes vapor?",
+            "aB": "Evaporation"
+        },
+        {
+            "qA": "How many rings are on the Olympic symbol?",
+            "aA": "5",
+            "qB": "What is 137 \u00d7 2?",
+            "aB": "274"
+        },
+        {
+            "qA": "What is 353 + 353?",
+            "aA": "706",
+            "qB": "Which explorer's 1492 voyage reached the Americas?",
+            "aB": "Christopher Columbus"
+        },
+        {
+            "qA": "Which country has the city of Helsinki?",
+            "aA": "Finland",
+            "qB": "What type of energy comes from sunlight?",
+            "aB": "Solar energy"
+        },
+        {
+            "qA": "Who wrote The Canterbury Tales?",
+            "aA": "Geoffrey Chaucer",
+            "qB": "Which country has the city of Rio de Janeiro?",
+            "aB": "Brazil"
+        },
+        {
+            "qA": "What is 90 \u00d7 2?",
+            "aA": "180",
+            "qB": "What is a group of lions called?",
+            "aB": "Pride"
+        },
+        {
+            "qA": "What is 270 \u00d7 2?",
+            "aA": "540",
+            "qB": "Which sport is known as the 'sport of kings'?",
+            "aB": "Horse racing"
+        },
+        {
+            "qA": "Which organ stores bile?",
+            "aA": "Gallbladder",
+            "qB": "What organ pumps blood around the human body?",
+            "aB": "Heart"
+        },
+        {
+            "qA": "What is the sudden shaking of Earth's crust called?",
+            "aA": "Earthquake",
+            "qB": "Who wrote Alice's Adventures in Wonderland?",
+            "aB": "Lewis Carroll"
+        },
+        {
+            "qA": "What is 400 + 400?",
+            "aA": "800",
+            "qB": "What is 147 \u00d7 2?",
+            "aB": "294"
+        },
+        {
+            "qA": "What is 130 \u00d7 2?",
+            "aA": "260",
+            "qB": "Which planet rotates on its side relative to its orbit?",
+            "aB": "Uranus"
+        },
+        {
+            "qA": "What is 92 \u00d7 2?",
+            "aA": "184",
+            "qB": "What is 220 \u00d7 2?",
+            "aB": "440"
+        },
+        {
+            "qA": "What is 200 + 200?",
+            "aA": "400",
+            "qB": "What is 377 + 377?",
+            "aB": "754"
+        },
+        {
+            "qA": "What is 210 \u00d7 2?",
+            "aA": "420",
+            "qB": "What is 180 \u00d7 2?",
+            "aB": "360"
+        },
+        {
+            "qA": "What is cloud computing?",
+            "aA": "Computing services delivered over the internet",
+            "qB": "What is 11 + 11?",
+            "aB": "22"
+        },
+        {
+            "qA": "What is 100 - 64?",
+            "aA": "36",
+            "qB": "What is the boiling point of water at sea level in Celsius?",
+            "aB": "100\u00b0C"
+        },
+        {
+            "qA": "What is 30% of 100?",
+            "aA": "30",
+            "qB": "What is 284 + 284?",
+            "aB": "568"
+        },
+        {
+            "qA": "What does Wi-Fi primarily provide?",
+            "aA": "Wireless network connectivity",
+            "qB": "What is 123 + 123?",
+            "aB": "246"
+        },
+        {
+            "qA": "What is 59 + 59?",
+            "aA": "118",
+            "qB": "What is 42 \u00d7 2?",
+            "aB": "84"
+        }
+    ],
+    "Station 4": [
+        {
+            "qA": "What is the national flower of India?",
+            "aA": "Lotus",
+            "qB": "What is 13 + 13?",
+            "aB": "26"
+        },
+        {
+            "qA": "What is 373 + 373?",
+            "aA": "746",
+            "qB": "What is 316 + 316?",
+            "aB": "632"
+        },
+        {
+            "qA": "What is 292 \u00d7 2?",
+            "aA": "584",
+            "qB": "What is 70 + 70?",
+            "aB": "140"
+        },
+        {
+            "qA": "What is 159 + 159?",
+            "aA": "318",
+            "qB": "What is 276 + 276?",
+            "aB": "552"
+        },
+        {
+            "qA": "What is 49 \u00d7 2?",
+            "aA": "98",
+            "qB": "What is the large Indian double-reed wind instrument often used in classical and ceremonial music?",
+            "aB": "Shehnai"
+        },
+        {
+            "qA": "What is 27 + 27?",
+            "aA": "54",
+            "qB": "What is the unit of energy in the SI system?",
+            "aB": "Joule"
+        },
+        {
+            "qA": "Which family does the flute belong to?",
+            "aA": "Woodwind",
+            "qB": "Which country has the city of Salzburg?",
+            "aB": "Austria"
+        },
+        {
+            "qA": "What is 302 + 302?",
+            "aA": "604",
+            "qB": "Which country has the city of Athens?",
+            "aB": "Greece"
+        },
+        {
+            "qA": "Which ancient people developed democracy in Athens?",
+            "aA": "Ancient Greeks",
+            "qB": "What is 88 \u00d7 2?",
+            "aB": "176"
+        },
+        {
+            "qA": "Which mountain range runs along much of India's northern border?",
+            "aA": "Himalayas",
+            "qB": "What is 292 + 292?",
+            "aB": "584"
+        },
+        {
+            "qA": "What is the area of a triangle with base 10 and height 4?",
+            "aA": "20 square units",
+            "qB": "Who wrote The Little Prince?",
+            "aB": "Antoine de Saint-Exup\u00e9ry"
+        },
+        {
+            "qA": "What is 240 + 240?",
+            "aA": "480",
+            "qB": "What is 78 + 78?",
+            "aB": "156"
+        },
+        {
+            "qA": "Which is the largest planet in our solar system?",
+            "aA": "Jupiter",
+            "qB": "What is the capital of Canada?",
+            "aB": "Ottawa"
+        },
+        {
+            "qA": "What is 85 + 85?",
+            "aA": "170",
+            "qB": "What is the SI unit of charge?",
+            "aB": "Coulomb"
+        },
+        {
+            "qA": "What is 74 \u00d7 2?",
+            "aA": "148",
+            "qB": "Who wrote Don Quixote?",
+            "aB": "Miguel de Cervantes"
+        },
+        {
+            "qA": "What is 242 + 242?",
+            "aA": "484",
+            "qB": "What is 182 \u00d7 2?",
+            "aB": "364"
+        },
+        {
+            "qA": "What is 196 \u00d7 2?",
+            "aA": "392",
+            "qB": "What is 54 + 54?",
+            "aB": "108"
+        },
+        {
+            "qA": "Which Indian state is famous for the Ajanta and Ellora caves?",
+            "aA": "Maharashtra",
+            "qB": "What is 243 + 243?",
+            "aB": "486"
+        },
+        {
+            "qA": "What is 83 + 83?",
+            "aA": "166",
+            "qB": "What is 73 \u00d7 2?",
+            "aB": "146"
+        },
+        {
+            "qA": "Which sport has a scrum?",
+            "aA": "Rugby",
+            "qB": "What is the study of Earth's physical environment called?",
+            "aB": "Physical geography"
+        },
+        {
+            "qA": "What is 369 + 369?",
+            "aA": "738",
+            "qB": "What is 183 \u00d7 2?",
+            "aB": "366"
+        },
+        {
+            "qA": "What is 133 \u00d7 2?",
+            "aA": "266",
+            "qB": "What is 225 + 225?",
+            "aB": "450"
+        },
+        {
+            "qA": "Which percussion instrument is commonly played with sticks and has tuned bars?",
+            "aA": "Xylophone",
+            "qB": "What is 276 \u00d7 2?",
+            "aB": "552"
+        },
+        {
+            "qA": "What is 18 + 18?",
+            "aA": "36",
+            "qB": "Who is associated with the first practical incandescent light bulb?",
+            "aB": "Thomas Edison"
+        },
+        {
+            "qA": "What is 361 + 361?",
+            "aA": "722",
+            "qB": "What is 209 + 209?",
+            "aB": "418"
+        },
+        {
+            "qA": "Which instrument is often called the king of instruments?",
+            "aA": "Organ",
+            "qB": "What is the name of the Greek epic about Achilles and the Trojan War?",
+            "aB": "Iliad"
+        },
+        {
+            "qA": "What is 82 + 82?",
+            "aA": "164",
+            "qB": "What is 260 + 260?",
+            "aB": "520"
+        },
+        {
+            "qA": "What is 277 \u00d7 2?",
+            "aA": "554",
+            "qB": "What is 350 + 350?",
+            "aB": "700"
+        },
+        {
+            "qA": "Which continent contains the Sahara Desert?",
+            "aA": "Africa",
+            "qB": "What is a group of singers called?",
+            "aB": "Choir"
+        },
+        {
+            "qA": "Who wrote Animal Farm?",
+            "aA": "George Orwell",
+            "qB": "What is 45 \u00d7 2?",
+            "aB": "90"
+        },
+        {
+            "qA": "Who painted American Gothic?",
+            "aA": "Grant Wood",
+            "qB": "What is 261 \u00d7 2?",
+            "aB": "522"
+        },
+        {
+            "qA": "How many legs does an insect have?",
+            "aA": "Six",
+            "qB": "What is 278 + 278?",
+            "aB": "556"
+        },
+        {
+            "qA": "What is 159 \u00d7 2?",
+            "aA": "318",
+            "qB": "What is the next odd number after 49?",
+            "aB": "51"
+        },
+        {
+            "qA": "Which Indian city is famous for the Dal Lake?",
+            "aA": "Srinagar",
+            "qB": "Which empire was ruled by Julius Caesar?",
+            "aB": "Roman Republic"
+        },
+        {
+            "qA": "What is 91 \u00d7 2?",
+            "aA": "182",
+            "qB": "Which country has the city of Lima?",
+            "aB": "Peru"
+        },
+        {
+            "qA": "What is 26 \u00d7 2?",
+            "aA": "52",
+            "qB": "Which river flows through Varanasi?",
+            "aB": "Ganges"
+        },
+        {
+            "qA": "What is 236 \u00d7 2?",
+            "aA": "472",
+            "qB": "What is 148 \u00d7 2?",
+            "aB": "296"
+        },
+        {
+            "qA": "What is 99 \u00d7 2?",
+            "aA": "198",
+            "qB": "What is a renewable resource?",
+            "aB": "A resource that can naturally replenish"
+        },
+        {
+            "qA": "What is 202 + 202?",
+            "aA": "404",
+            "qB": "What is the chemical symbol for potassium?",
+            "aB": "K"
+        },
+        {
+            "qA": "What is 14 \u00d7 6?",
+            "aA": "84",
+            "qB": "What is 22 + 22?",
+            "aB": "44"
+        },
+        {
+            "qA": "Which country has the city of Budapest?",
+            "aA": "Hungary",
+            "qB": "Which Indian city is famous for the Mysore Palace?",
+            "aB": "Mysuru"
+        },
+        {
+            "qA": "What is 345 + 345?",
+            "aA": "690",
+            "qB": "What is 263 \u00d7 2?",
+            "aB": "526"
+        },
+        {
+            "qA": "What is one under par on a golf hole called?",
+            "aA": "Birdie",
+            "qB": "Which state is famous for Kaziranga National Park?",
+            "aB": "Assam"
+        },
+        {
+            "qA": "What does WWW stand for?",
+            "aA": "World Wide Web",
+            "qB": "Who developed the first successful polio vaccine?",
+            "aB": "Jonas Salk"
+        },
+        {
+            "qA": "Which wall divided Berlin during the Cold War?",
+            "aA": "Berlin Wall",
+            "qB": "What is the chemical symbol for oxygen?",
+            "aB": "O"
+        },
+        {
+            "qA": "Which country has the city of Vienna?",
+            "aA": "Austria",
+            "qB": "What is 295 \u00d7 2?",
+            "aB": "590"
+        },
+        {
+            "qA": "What is a nonrenewable resource?",
+            "aA": "A resource that does not replenish quickly on human timescales",
+            "qB": "What is 136 + 136?",
+            "aB": "272"
+        },
+        {
+            "qA": "What is 255 + 255?",
+            "aA": "510",
+            "qB": "What is 244 \u00d7 2?",
+            "aB": "488"
+        },
+        {
+            "qA": "What is 19 \u00d7 2?",
+            "aA": "38",
+            "qB": "What is 397 + 397?",
+            "aB": "794"
+        },
+        {
+            "qA": "What is 92 + 92?",
+            "aA": "184",
+            "qB": "What is 131 + 131?",
+            "aB": "262"
+        },
+        {
+            "qA": "What is 279 + 279?",
+            "aA": "558",
+            "qB": "What is 347 + 347?",
+            "aB": "694"
+        },
+        {
+            "qA": "What does PDF stand for?",
+            "aA": "Portable Document Format",
+            "qB": "What is 258 + 258?",
+            "aB": "516"
+        },
+        {
+            "qA": "What is 5/8 as a decimal?",
+            "aA": "0.625",
+            "qB": "What is 12 + 12?",
+            "aB": "24"
+        },
+        {
+            "qA": "What is 75 \u00d7 2?",
+            "aA": "150",
+            "qB": "Which Indian state is known for its living root bridges?",
+            "aB": "Meghalaya"
+        },
+        {
+            "qA": "What is 390 + 390?",
+            "aA": "780",
+            "qB": "What is 80 \u00d7 2?",
+            "aB": "160"
+        },
+        {
+            "qA": "What is 233 \u00d7 2?",
+            "aA": "466",
+            "qB": "What is 243 \u00d7 2?",
+            "aB": "486"
+        },
+        {
+            "qA": "What is 241 + 241?",
+            "aA": "482",
+            "qB": "Which state is famous for the Hornbill Festival?",
+            "aB": "Nagaland"
+        },
+        {
+            "qA": "What is 189 \u00d7 2?",
+            "aA": "378",
+            "qB": "What is 177 + 177?",
+            "aB": "354"
+        },
+        {
+            "qA": "What is a musical composition for one performer called?",
+            "aA": "Solo",
+            "qB": "Which country hosted the first modern Olympic Games in 1896?",
+            "aB": "Greece"
+        },
+        {
+            "qA": "What is 394 + 394?",
+            "aA": "788",
+            "qB": "What is 122 + 122?",
+            "aB": "244"
+        },
+        {
+            "qA": "What is 148 + 148?",
+            "aA": "296",
+            "qB": "What is 62 \u00d7 2?",
+            "aB": "124"
+        },
+        {
+            "qA": "What is 32 \u00d7 2?",
+            "aA": "64",
+            "qB": "Who wrote The Hobbit?",
+            "aB": "J. R. R. Tolkien"
+        },
+        {
+            "qA": "What is 78 \u00d7 2?",
+            "aA": "156",
+            "qB": "What is 84 \u00d7 2?",
+            "aB": "168"
+        },
+        {
+            "qA": "What is 44 + 44?",
+            "aA": "88",
+            "qB": "How many minutes are in a standard soccer match, excluding added time?",
+            "aB": "90"
+        },
+        {
+            "qA": "What is one over par on a golf hole called?",
+            "aA": "Bogey",
+            "qB": "What is the capital of South Korea?",
+            "aB": "Seoul"
+        },
+        {
+            "qA": "What is 14 \u00d7 2?",
+            "aA": "28",
+            "qB": "Which country has the city of Venice?",
+            "aB": "Italy"
+        },
+        {
+            "qA": "What is 42 + 42?",
+            "aA": "84",
+            "qB": "What is 264 + 264?",
+            "aB": "528"
+        },
+        {
+            "qA": "What is 189 + 189?",
+            "aA": "378",
+            "qB": "What is 146 \u00d7 2?",
+            "aB": "292"
+        },
+        {
+            "qA": "What is 239 \u00d7 2?",
+            "aA": "478",
+            "qB": "Which family does the violin belong to?",
+            "aB": "String"
+        },
+        {
+            "qA": "Which sport uses a puck?",
+            "aA": "Ice hockey",
+            "qB": "What is 274 + 274?",
+            "aB": "548"
+        },
+        {
+            "qA": "What is 317 + 317?",
+            "aA": "634",
+            "qB": "What is 255 \u00d7 2?",
+            "aB": "510"
+        },
+        {
+            "qA": "What is 55 \u00d7 2?",
+            "aA": "110",
+            "qB": "What is 40 + 40?",
+            "aB": "80"
+        },
+        {
+            "qA": "What is 252 \u00d7 2?",
+            "aA": "504",
+            "qB": "What is 213 + 213?",
+            "aB": "426"
+        },
+        {
+            "qA": "What is 251 \u00d7 2?",
+            "aA": "502",
+            "qB": "What is 3 \u00d7 2?",
+            "aB": "6"
+        },
+        {
+            "qA": "What is 257 \u00d7 2?",
+            "aA": "514",
+            "qB": "What is 208 + 208?",
+            "aB": "416"
+        }
+    ],
+    "Station 5": [
+        {
+            "qA": "What is the capital of Egypt?",
+            "aA": "Cairo",
+            "qB": "What is 1000 + 250?",
+            "aB": "1250"
+        },
+        {
+            "qA": "What is 322 + 322?",
+            "aA": "644",
+            "qB": "What is the SI unit of temperature?",
+            "aB": "Kelvin"
+        },
+        {
+            "qA": "Which organ filters waste from the blood and produces urine?",
+            "aA": "Kidneys",
+            "qB": "What is 101 \u00d7 2?",
+            "aB": "202"
+        },
+        {
+            "qA": "What is 39 \u00d7 2?",
+            "aA": "78",
+            "qB": "What is 228 \u00d7 2?",
+            "aB": "456"
+        },
+        {
+            "qA": "What is 296 + 296?",
+            "aA": "592",
+            "qB": "What is 126 + 126?",
+            "aB": "252"
+        },
+        {
+            "qA": "Which ship sank on its maiden voyage in 1912?",
+            "aA": "Titanic",
+            "qB": "What is the fastest land animal?",
+            "aB": "Cheetah"
+        },
+        {
+            "qA": "Which Indian state is home to the Hampi ruins?",
+            "aA": "Karnataka",
+            "qB": "What is 349 + 349?",
+            "aB": "698"
+        },
+        {
+            "qA": "What is 284 \u00d7 2?",
+            "aA": "568",
+            "qB": "What is 222 \u00d7 2?",
+            "aB": "444"
+        },
+        {
+            "qA": "How many keys are on a standard modern piano?",
+            "aA": "88",
+            "qB": "Which planet is closest to the Sun?",
+            "aB": "Mercury"
+        },
+        {
+            "qA": "What is the term for singing without instrumental accompaniment?",
+            "aA": "A cappella",
+            "qB": "What is H2O commonly called?",
+            "aB": "Water"
+        },
+        {
+            "qA": "Which country has the city of Zagreb?",
+            "aA": "Croatia",
+            "qB": "What is 99 + 99?",
+            "aB": "198"
+        },
+        {
+            "qA": "What does SQL stand for?",
+            "aA": "Structured Query Language",
+            "qB": "What is 164 + 164?",
+            "aB": "328"
+        },
+        {
+            "qA": "What is 281 + 281?",
+            "aA": "562",
+            "qB": "What is 53 \u00d7 2?",
+            "aB": "106"
+        },
+        {
+            "qA": "What is 61 \u00d7 2?",
+            "aA": "122",
+            "qB": "What is 241 \u00d7 2?",
+            "aB": "482"
+        },
+        {
+            "qA": "Who wrote The Old Man and the Sea?",
+            "aA": "Ernest Hemingway",
+            "qB": "What is the maximum score with one dart in standard darts?",
+            "aB": "60"
+        },
+        {
+            "qA": "What is 87 + 87?",
+            "aA": "174",
+            "qB": "What is 102 \u00d7 2?",
+            "aB": "204"
+        },
+        {
+            "qA": "What is 17 + 17?",
+            "aA": "34",
+            "qB": "What is the hardest naturally occurring mineral?",
+            "aB": "Diamond"
+        },
+        {
+            "qA": "Which ancient Greek city-state was famous for its military culture?",
+            "aA": "Sparta",
+            "qB": "What is 229 \u00d7 2?",
+            "aB": "458"
+        },
+        {
+            "qA": "Which metal is liquid at room temperature?",
+            "aA": "Mercury",
+            "qB": "What is 188 + 188?",
+            "aB": "376"
+        },
+        {
+            "qA": "What is the natural process of water falling from clouds called?",
+            "aA": "Precipitation",
+            "qB": "What is an oasis?",
+            "aB": "A fertile place in a desert with water"
+        },
+        {
+            "qA": "What do red blood cells contain that binds oxygen?",
+            "aA": "Hemoglobin",
+            "qB": "What is 318 + 318?",
+            "aB": "636"
+        },
+        {
+            "qA": "What is 298 \u00d7 2?",
+            "aA": "596",
+            "qB": "What is 117 \u00d7 2?",
+            "aB": "234"
+        },
+        {
+            "qA": "What is 171 \u00d7 2?",
+            "aA": "342",
+            "qB": "What is 4 \u00d7 2?",
+            "aB": "8"
+        },
+        {
+            "qA": "What is 116 + 116?",
+            "aA": "232",
+            "qB": "What is 247 + 247?",
+            "aB": "494"
+        },
+        {
+            "qA": "What is a funnel-shaped cloud associated with severe storms called?",
+            "aA": "Tornado",
+            "qB": "What is 66 + 66?",
+            "aB": "132"
+        },
+        {
+            "qA": "What is 7 squared?",
+            "aA": "49",
+            "qB": "What is 287 + 287?",
+            "aB": "574"
+        },
+        {
+            "qA": "What is 29 \u00d7 2?",
+            "aA": "58",
+            "qB": "What is the next prime number after 7?",
+            "aB": "11"
+        },
+        {
+            "qA": "Which country has the city of Bucharest?",
+            "aA": "Romania",
+            "qB": "What is 209 \u00d7 2?",
+            "aB": "418"
+        },
+        {
+            "qA": "What is 367 + 367?",
+            "aA": "734",
+            "qB": "What is the pH of pure water at about 25\u00b0C?",
+            "aB": "7"
+        },
+        {
+            "qA": "What is 398 + 398?",
+            "aA": "796",
+            "qB": "What is 34 + 34?",
+            "aB": "68"
+        },
+        {
+            "qA": "What is 86 \u00d7 2?",
+            "aA": "172",
+            "qB": "What is 321 + 321?",
+            "aB": "642"
+        },
+        {
+            "qA": "What is the Indian classical percussion instrument often paired with Hindustani music?",
+            "aA": "Tabla",
+            "qB": "What is 116 \u00d7 2?",
+            "aB": "232"
+        },
+        {
+            "qA": "What is 15 \u00d7 4?",
+            "aA": "60",
+            "qB": "What is 51 \u00d7 2?",
+            "aB": "102"
+        },
+        {
+            "qA": "What is the largest internal organ in the human body?",
+            "aA": "Liver",
+            "qB": "What is 93 + 93?",
+            "aB": "186"
+        },
+        {
+            "qA": "What is 300 + 300?",
+            "aA": "600",
+            "qB": "Which sport is associated with the term 'checkmate'?",
+            "aB": "Chess"
+        },
+        {
+            "qA": "What is 201 \u00d7 2?",
+            "aA": "402",
+            "qB": "What is 17 \u00d7 5?",
+            "aB": "85"
+        },
+        {
+            "qA": "Which blood cells help fight infection?",
+            "aA": "White blood cells",
+            "qB": "What is 16 \u00d7 2?",
+            "aB": "32"
+        },
+        {
+            "qA": "What is 43 + 43?",
+            "aA": "86",
+            "qB": "What is 259 \u00d7 2?",
+            "aB": "518"
+        },
+        {
+            "qA": "What is the highest possible score with one standard bowling ball roll?",
+            "aA": "10",
+            "qB": "What is 39 + 39?",
+            "aB": "78"
+        },
+        {
+            "qA": "What is 193 + 193?",
+            "aA": "386",
+            "qB": "What is 7 \u00d7 2?",
+            "aB": "14"
+        },
+        {
+            "qA": "What is 112 \u00d7 2?",
+            "aA": "224",
+            "qB": "What is 102 + 102?",
+            "aB": "204"
+        },
+        {
+            "qA": "What is 185 \u00d7 2?",
+            "aA": "370",
+            "qB": "Which festival celebrates the harvest in Punjab?",
+            "aB": "Baisakhi"
+        },
+        {
+            "qA": "What is a web browser used for?",
+            "aA": "Accessing websites",
+            "qB": "What is 135 \u00d7 2?",
+            "aB": "270"
+        },
+        {
+            "qA": "What is 199 \u00d7 2?",
+            "aA": "398",
+            "qB": "What is 89 + 89?",
+            "aB": "178"
+        },
+        {
+            "qA": "What is 258 \u00d7 2?",
+            "aA": "516",
+            "qB": "Which country has the city of Santiago?",
+            "aB": "Chile"
+        },
+        {
+            "qA": "What is 3/4 as a decimal?",
+            "aA": "0.75",
+            "qB": "What is 12 \u00d7 12?",
+            "aB": "144"
+        },
+        {
+            "qA": "Which sport has the terms love, deuce, and ace?",
+            "aA": "Tennis",
+            "qB": "What is 176 + 176?",
+            "aB": "352"
+        },
+        {
+            "qA": "What is 342 + 342?",
+            "aA": "684",
+            "qB": "Which civilization built Machu Picchu?",
+            "aB": "Inca"
+        },
+        {
+            "qA": "What is 82 \u00d7 2?",
+            "aA": "164",
+            "qB": "Which animal is famous for its ability to regenerate lost limbs?",
+            "aB": "Starfish"
+        },
+        {
+            "qA": "What is 295 + 295?",
+            "aA": "590",
+            "qB": "What is 75 + 75?",
+            "aB": "150"
+        },
+        {
+            "qA": "What is the national bird of India?",
+            "aA": "Indian peacock",
+            "qB": "What is 65 + 65?",
+            "aB": "130"
+        },
+        {
+            "qA": "Which Indian state is famous for tea gardens around Darjeeling?",
+            "aA": "West Bengal",
+            "qB": "What is 259 + 259?",
+            "aB": "518"
+        },
+        {
+            "qA": "What is 141 + 141?",
+            "aA": "282",
+            "qB": "Which country has the city of Vancouver?",
+            "aB": "Canada"
+        },
+        {
+            "qA": "What process do plants use to make food using sunlight?",
+            "aA": "Photosynthesis",
+            "qB": "Which sport includes the butterfly stroke?",
+            "aB": "Swimming"
+        },
+        {
+            "qA": "What is 33 \u00d7 2?",
+            "aA": "66",
+            "qB": "What is 233 + 233?",
+            "aB": "466"
+        },
+        {
+            "qA": "What is 283 + 283?",
+            "aA": "566",
+            "qB": "What is the process by which plants release water vapor?",
+            "aB": "Transpiration"
+        },
+        {
+            "qA": "What is 217 \u00d7 2?",
+            "aA": "434",
+            "qB": "What is 36 \u00d7 2?",
+            "aB": "72"
+        },
+        {
+            "qA": "What is the SI unit of electrical resistance?",
+            "aA": "Ohm",
+            "qB": "What is a monsoon?",
+            "aB": "A seasonal reversal of winds often associated with rainfall"
+        },
+        {
+            "qA": "Which country has the city of Barcelona?",
+            "aA": "Spain",
+            "qB": "What is 253 \u00d7 2?",
+            "aB": "506"
+        },
+        {
+            "qA": "What is 1 + 1?",
+            "aA": "2",
+            "qB": "Which country has the city of Warsaw?",
+            "aB": "Poland"
+        },
+        {
+            "qA": "What is 186 \u00d7 2?",
+            "aA": "372",
+            "qB": "Which classical dance form is associated with Andhra Pradesh?",
+            "aB": "Kuchipudi"
+        },
+        {
+            "qA": "What is 58 + 58?",
+            "aA": "116",
+            "qB": "What is 168 \u00d7 2?",
+            "aB": "336"
+        },
+        {
+            "qA": "What is the common file extension for a spreadsheet workbook created by modern Excel?",
+            "aA": ".xlsx",
+            "qB": "What is 5 \u00d7 2?",
+            "aB": "10"
+        },
+        {
+            "qA": "Which empire was centered in Constantinople?",
+            "aA": "Byzantine Empire",
+            "qB": "What is 7 \u00d7 12?",
+            "aB": "84"
+        },
+        {
+            "qA": "What does 'allegro' generally indicate?",
+            "aA": "Fast tempo",
+            "qB": "What is 53 + 53?",
+            "aB": "106"
+        },
+        {
+            "qA": "Who founded the Maurya Empire?",
+            "aA": "Chandragupta Maurya",
+            "qB": "Which Indian state is famous for the beaches of Goa?",
+            "aB": "Goa"
+        },
+        {
+            "qA": "What is Earth's natural satellite?",
+            "aA": "Moon",
+            "qB": "Which city was the center of the ancient Olympic Games?",
+            "aB": "Olympia"
+        },
+        {
+            "qA": "What is 8 \u00d7 2?",
+            "aA": "16",
+            "qB": "What does 'piano' mean in music dynamics?",
+            "aB": "Soft"
+        },
+        {
+            "qA": "What is 207 \u00d7 2?",
+            "aA": "414",
+            "qB": "What is 156 + 156?",
+            "aB": "312"
+        },
+        {
+            "qA": "What is 5 + 5?",
+            "aA": "10",
+            "qB": "What is 103 \u00d7 2?",
+            "aB": "206"
+        },
+        {
+            "qA": "How many sets must a player generally win to win a men's Grand Slam singles match?",
+            "aA": "3",
+            "qB": "What is 18 + 24?",
+            "aB": "42"
+        },
+        {
+            "qA": "What is 178 + 178?",
+            "aA": "356",
+            "qB": "What is 219 + 219?",
+            "aB": "438"
+        },
+        {
+            "qA": "Which document begins with 'We the People'?",
+            "aA": "United States Constitution",
+            "qB": "Which country has the city of Stockholm?",
+            "aB": "Sweden"
+        },
+        {
+            "qA": "What is 271 \u00d7 2?",
+            "aA": "542",
+            "qB": "What is 236 + 236?",
+            "aB": "472"
+        },
+        {
+            "qA": "What does 'adagio' generally indicate?",
+            "aA": "Slow tempo",
+            "qB": "Which sport uses a green jacket as a famous prize?",
+            "aB": "Golf"
+        }
+    ],
+    "Station 6": [
+        {
+            "qA": "Which Indian city is famous for the Howrah Bridge?",
+            "aA": "Kolkata",
+            "qB": "What is 283 \u00d7 2?",
+            "aB": "566"
+        },
+        {
+            "qA": "Which company created the iPhone?",
+            "aA": "Apple",
+            "qB": "What is 160 + 160?",
+            "aB": "320"
+        },
+        {
+            "qA": "Who wrote the play Romeo and Juliet?",
+            "aA": "William Shakespeare",
+            "qB": "What is 97 \u00d7 2?",
+            "aB": "194"
+        },
+        {
+            "qA": "What is 188 \u00d7 2?",
+            "aA": "376",
+            "qB": "What is a person who writes music called?",
+            "aB": "Composer"
+        },
+        {
+            "qA": "How many bases are there on a baseball diamond?",
+            "aA": "4",
+            "qB": "Which country is known as the Land of the Rising Sun?",
+            "aB": "Japan"
+        },
+        {
+            "qA": "What is 265 + 265?",
+            "aA": "530",
+            "qB": "What is 358 + 358?",
+            "aB": "716"
+        },
+        {
+            "qA": "Which Indian city is home to the Golden Temple?",
+            "aA": "Amritsar",
+            "qB": "What is 232 + 232?",
+            "aB": "464"
+        },
+        {
+            "qA": "Which monument is located in Agra?",
+            "aA": "Taj Mahal",
+            "qB": "What is 180 + 180?",
+            "aB": "360"
+        },
+        {
+            "qA": "What is 79 + 79?",
+            "aA": "158",
+            "qB": "What is 2 to the power of 5?",
+            "aB": "32"
+        },
+        {
+            "qA": "What is 250 \u00d7 2?",
+            "aA": "500",
+            "qB": "What is 105 + 105?",
+            "aB": "210"
+        },
+        {
+            "qA": "Which famous queen ruled ancient Egypt and was associated with Julius Caesar and Mark Antony?",
+            "aA": "Cleopatra",
+            "qB": "What is the basic unit of life?",
+            "aB": "Cell"
+        },
+        {
+            "qA": "What is 50% of 200?",
+            "aA": "100",
+            "qB": "What is 26 + 26?",
+            "aB": "52"
+        },
+        {
+            "qA": "Who painted The Persistence of Memory?",
+            "aA": "Salvador Dal\u00ed",
+            "qB": "What is 333 + 333?",
+            "aB": "666"
+        },
+        {
+            "qA": "What is 143 + 143?",
+            "aA": "286",
+            "qB": "What is 69 \u00d7 2?",
+            "aB": "138"
+        },
+        {
+            "qA": "What is 112 + 112?",
+            "aA": "224",
+            "qB": "What is 31 \u00d7 2?",
+            "aB": "62"
+        },
+        {
+            "qA": "What is 50 + 50?",
+            "aA": "100",
+            "qB": "What is 196 + 196?",
+            "aB": "392"
+        },
+        {
+            "qA": "What is 97 + 97?",
+            "aA": "194",
+            "qB": "What is a short repeated musical idea called?",
+            "aB": "Motif"
+        },
+        {
+            "qA": "What molecule carries genetic information in most living organisms?",
+            "aA": "DNA",
+            "qB": "What is 2 \u00d7 3 \u00d7 4?",
+            "aB": "24"
+        },
+        {
+            "qA": "What is 104 \u00d7 2?",
+            "aA": "208",
+            "qB": "What is the study of weather called?",
+            "aB": "Meteorology"
+        },
+        {
+            "qA": "What is 2/3 as a decimal, approximately?",
+            "aA": "0.667",
+            "qB": "What is the largest land animal?",
+            "aB": "African elephant"
+        },
+        {
+            "qA": "Which instrument is known for having pedals and strings?",
+            "aA": "Harp",
+            "qB": "Which country has the city of Prague?",
+            "aB": "Czech Republic"
+        },
+        {
+            "qA": "What is the capital of Brazil?",
+            "aA": "Brasilia",
+            "qB": "What is the unit of power?",
+            "aB": "Watt"
+        },
+        {
+            "qA": "What is 270 + 270?",
+            "aA": "540",
+            "qB": "What is 67 + 67?",
+            "aB": "134"
+        },
+        {
+            "qA": "What is 38 + 38?",
+            "aA": "76",
+            "qB": "What instrument measures wind direction?",
+            "aB": "Wind vane"
+        },
+        {
+            "qA": "What is 96 \u00f7 8?",
+            "aA": "12",
+            "qB": "What is 107 + 107?",
+            "aB": "214"
+        },
+        {
+            "qA": "Which animal is known for producing pearls?",
+            "aA": "Oyster",
+            "qB": "What is 100 - 27?",
+            "aB": "73"
+        },
+        {
+            "qA": "What is 187 + 187?",
+            "aA": "374",
+            "qB": "What is 174 + 174?",
+            "aB": "348"
+        },
+        {
+            "qA": "What is 191 \u00d7 2?",
+            "aA": "382",
+            "qB": "What is 275 + 275?",
+            "aB": "550"
+        },
+        {
+            "qA": "What is 89 \u00d7 2?",
+            "aA": "178",
+            "qB": "What is 24 \u00d7 2?",
+            "aB": "48"
+        },
+        {
+            "qA": "What is 153 + 153?",
+            "aA": "306",
+            "qB": "Which Indian state has the longest coastline?",
+            "aB": "Gujarat"
+        },
+        {
+            "qA": "What instrument measures temperature?",
+            "aA": "Thermometer",
+            "qB": "Which Indian city is famous for the Rock Garden?",
+            "aB": "Chandigarh"
+        },
+        {
+            "qA": "Who painted Starry Night?",
+            "aA": "Vincent van Gogh",
+            "qB": "What does AI stand for?",
+            "aB": "Artificial Intelligence"
+        },
+        {
+            "qA": "What is 221 \u00d7 2?",
+            "aA": "442",
+            "qB": "Which country has the city of Istanbul?",
+            "aB": "Turkey"
+        },
+        {
+            "qA": "What is 17 \u00d7 2?",
+            "aA": "34",
+            "qB": "What is 197 + 197?",
+            "aB": "394"
+        },
+        {
+            "qA": "What is 310 + 310?",
+            "aA": "620",
+            "qB": "Which country has the city of Buenos Aires?",
+            "aB": "Argentina"
+        },
+        {
+            "qA": "What is 134 + 134?",
+            "aA": "268",
+            "qB": "What is 254 \u00d7 2?",
+            "aB": "508"
+        },
+        {
+            "qA": "What does SSD stand for?",
+            "aA": "Solid State Drive",
+            "qB": "What is 360 + 360?",
+            "aB": "720"
+        },
+        {
+            "qA": "What is 139 + 139?",
+            "aA": "278",
+            "qB": "What is 34 \u00d7 2?",
+            "aB": "68"
+        },
+        {
+            "qA": "What is 187 \u00d7 2?",
+            "aA": "374",
+            "qB": "What is 113 \u00d7 2?",
+            "aB": "226"
+        },
+        {
+            "qA": "What is 88 + 88?",
+            "aA": "176",
+            "qB": "What is 297 \u00d7 2?",
+            "aB": "594"
+        },
+        {
+            "qA": "Which is the smallest continent by land area?",
+            "aA": "Australia",
+            "qB": "What is the area of a square with side 5 units?",
+            "aB": "25 square units"
+        },
+        {
+            "qA": "What is the SI unit of pressure?",
+            "aA": "Pascal",
+            "qB": "What is 388 + 388?",
+            "aB": "776"
+        },
+        {
+            "qA": "What is 43 \u00d7 2?",
+            "aA": "86",
+            "qB": "What is 324 + 324?",
+            "aB": "648"
+        },
+        {
+            "qA": "What is 340 + 340?",
+            "aA": "680",
+            "qB": "What is a group of three musicians called?",
+            "aB": "Trio"
+        },
+        {
+            "qA": "What is 91 + 91?",
+            "aA": "182",
+            "qB": "Who wrote 1984?",
+            "aB": "George Orwell"
+        },
+        {
+            "qA": "What is 80 + 80?",
+            "aA": "160",
+            "qB": "What is 129 + 129?",
+            "aB": "258"
+        },
+        {
+            "qA": "What is 119 \u00d7 2?",
+            "aA": "238",
+            "qB": "What is 204 \u00d7 2?",
+            "aB": "408"
+        },
+        {
+            "qA": "Who painted the Mona Lisa?",
+            "aA": "Leonardo da Vinci",
+            "qB": "What is 64 \u00d7 2?",
+            "aB": "128"
+        },
+        {
+            "qA": "What instrument measures wind speed?",
+            "aA": "Anemometer",
+            "qB": "What is 392 + 392?",
+            "aB": "784"
+        },
+        {
+            "qA": "What is 158 + 158?",
+            "aA": "316",
+            "qB": "How many players are on a basketball team on court at one time?",
+            "aB": "5"
+        },
+        {
+            "qA": "What is 202 \u00d7 2?",
+            "aA": "404",
+            "qB": "How many legs does a spider have?",
+            "aB": "Eight"
+        },
+        {
+            "qA": "What is 229 + 229?",
+            "aA": "458",
+            "qB": "Which continent contains the Amazon rainforest?",
+            "aB": "South America"
+        },
+        {
+            "qA": "What is 285 \u00d7 2?",
+            "aA": "570",
+            "qB": "What is 286 \u00d7 2?",
+            "aB": "572"
+        },
+        {
+            "qA": "What is the capital of France?",
+            "aA": "Paris",
+            "qB": "What is 162 \u00d7 2?",
+            "aB": "324"
+        },
+        {
+            "qA": "Which device is commonly used to move a pointer on a computer screen?",
+            "aA": "Mouse",
+            "qB": "Which sport is associated with the Tour de France?",
+            "aB": "Cycling"
+        },
+        {
+            "qA": "What is the largest mammal?",
+            "aA": "Blue whale",
+            "qB": "What is 25 + 25?",
+            "aB": "50"
+        },
+        {
+            "qA": "Which mammal is known for laying eggs?",
+            "aA": "Platypus",
+            "qB": "Which instrument typically has six strings?",
+            "aB": "Guitar"
+        },
+        {
+            "qA": "What is 273 \u00d7 2?",
+            "aA": "546",
+            "qB": "What is 167 + 167?",
+            "aB": "334"
+        },
+        {
+            "qA": "Which classical dance form originated in Tamil Nadu?",
+            "aA": "Bharatanatyam",
+            "qB": "What is 274 \u00d7 2?",
+            "aB": "548"
+        },
+        {
+            "qA": "Which country has the city of Montevideo?",
+            "aA": "Uruguay",
+            "qB": "What is 121 \u00f7 11?",
+            "aB": "11"
+        },
+        {
+            "qA": "Which Indian state is home to the Kaziranga National Park?",
+            "aA": "Assam",
+            "qB": "What is 96 \u00d7 2?",
+            "aB": "192"
+        },
+        {
+            "qA": "Which ancient university was located in present-day Bihar?",
+            "aA": "Nalanda",
+            "qB": "What is 81 + 81?",
+            "aB": "162"
+        },
+        {
+            "qA": "What is a password manager used for?",
+            "aA": "Storing and managing passwords",
+            "qB": "What is 171 + 171?",
+            "aB": "342"
+        },
+        {
+            "qA": "What is 323 + 323?",
+            "aA": "646",
+            "qB": "Which is the smallest ocean on Earth?",
+            "aB": "Arctic Ocean"
+        },
+        {
+            "qA": "What is 30 \u00d7 2?",
+            "aA": "60",
+            "qB": "What is 309 + 309?",
+            "aB": "618"
+        },
+        {
+            "qA": "What is 98 \u00d7 2?",
+            "aA": "196",
+            "qB": "What is 61 + 61?",
+            "aB": "122"
+        },
+        {
+            "qA": "What is 59 \u00d7 2?",
+            "aA": "118",
+            "qB": "What is 291 \u00d7 2?",
+            "aB": "582"
+        },
+        {
+            "qA": "What is 363 + 363?",
+            "aA": "726",
+            "qB": "What does 'crescendo' indicate?",
+            "aB": "Gradually getting louder"
+        },
+        {
+            "qA": "What is 49 + 49?",
+            "aA": "98",
+            "qB": "What is 210 + 210?",
+            "aB": "420"
+        },
+        {
+            "qA": "What is 8 \u00d7 7?",
+            "aA": "56",
+            "qB": "What is 100 \u00f7 4?",
+            "aB": "25"
+        },
+        {
+            "qA": "What gas do plants absorb during photosynthesis?",
+            "aA": "Carbon dioxide",
+            "qB": "What is the first level of a typical food chain?",
+            "aB": "Producers"
+        },
+        {
+            "qA": "What is 109 + 109?",
+            "aA": "218",
+            "qB": "What is a glacier?",
+            "aB": "A large mass of moving ice"
+        },
+        {
+            "qA": "What is 15 \u00d7 2?",
+            "aA": "30",
+            "qB": "Which desert covers much of northern Africa?",
+            "aB": "Sahara Desert"
+        },
+        {
+            "qA": "What is 230 \u00d7 2?",
+            "aA": "460",
+            "qB": "How many strings does a standard violin have?",
+            "aB": "4"
+        },
+        {
+            "qA": "What is the smallest bone in the human body?",
+            "aA": "Stapes",
+            "qB": "What is 94 + 94?",
+            "aB": "188"
+        }
+    ],
+    "Station 7": [
+        {
+            "qA": "Who wrote The Alchemist?",
+            "aA": "Paulo Coelho",
+            "qB": "Which civilization used hieroglyphics?",
+            "aB": "Ancient Egyptians"
+        },
+        {
+            "qA": "Which city is known as the City of Lakes in Rajasthan?",
+            "aA": "Udaipur",
+            "qB": "What is 110 + 110?",
+            "aB": "220"
+        },
+        {
+            "qA": "What is 298 + 298?",
+            "aA": "596",
+            "qB": "What is 154 \u00d7 2?",
+            "aB": "308"
+        },
+        {
+            "qA": "What is the layer of gases surrounding Earth called?",
+            "aA": "Atmosphere",
+            "qB": "What is 272 + 272?",
+            "aB": "544"
+        },
+        {
+            "qA": "What is 32 + 32?",
+            "aA": "64",
+            "qB": "What is 33 + 33?",
+            "aB": "66"
+        },
+        {
+            "qA": "What is a repeated musical section called?",
+            "aA": "Refrain",
+            "qB": "What is 37 + 37?",
+            "aB": "74"
+        },
+        {
+            "qA": "What is 246 \u00d7 2?",
+            "aA": "492",
+            "qB": "Which Indian city is famous for the Sun Temple at Konark?",
+            "aB": "Konark"
+        },
+        {
+            "qA": "What is 285 + 285?",
+            "aA": "570",
+            "qB": "Which Indian emperor is associated with the Lion Capital at Sarnath?",
+            "aB": "Ashoka"
+        },
+        {
+            "qA": "What is 199 + 199?",
+            "aA": "398",
+            "qB": "What is phishing?",
+            "aB": "A fraudulent attempt to obtain sensitive information"
+        },
+        {
+            "qA": "What is 232 \u00d7 2?",
+            "aA": "464",
+            "qB": "What is 352 + 352?",
+            "aB": "704"
+        },
+        {
+            "qA": "What is 108 + 108?",
+            "aA": "216",
+            "qB": "What is a musical composition for two performers called?",
+            "aB": "Duet"
+        },
+        {
+            "qA": "What is 28 + 28?",
+            "aA": "56",
+            "qB": "What is 354 + 354?",
+            "aB": "708"
+        },
+        {
+            "qA": "What is 269 + 269?",
+            "aA": "538",
+            "qB": "What is two-factor authentication?",
+            "aB": "An authentication method using two verification factors"
+        },
+        {
+            "qA": "What is 68 \u00d7 2?",
+            "aA": "136",
+            "qB": "What is 183 + 183?",
+            "aB": "366"
+        },
+        {
+            "qA": "What is the area of a rectangle 4 by 6 units?",
+            "aA": "24 square units",
+            "qB": "What is 252 + 252?",
+            "aB": "504"
+        },
+        {
+            "qA": "Which sport uses a balance beam?",
+            "aA": "Gymnastics",
+            "qB": "What is 22 \u00d7 2?",
+            "aB": "44"
+        },
+        {
+            "qA": "What is 28 \u00d7 2?",
+            "aA": "56",
+            "qB": "Who was the first emperor of the Roman Empire?",
+            "aB": "Augustus"
+        },
+        {
+            "qA": "What is 109 \u00d7 2?",
+            "aA": "218",
+            "qB": "What is 351 + 351?",
+            "aB": "702"
+        },
+        {
+            "qA": "What does 'decrescendo' indicate?",
+            "aA": "Gradually getting softer",
+            "qB": "Which city is known as the City of Nizams?",
+            "aB": "Hyderabad"
+        },
+        {
+            "qA": "What is 125 \u00d7 2?",
+            "aA": "250",
+            "qB": "What is 11 \u00d7 11?",
+            "aB": "121"
+        },
+        {
+            "qA": "What is 294 + 294?",
+            "aA": "588",
+            "qB": "What is 15 + 15?",
+            "aB": "30"
+        },
+        {
+            "qA": "What is 9 \u00d7 9?",
+            "aA": "81",
+            "qB": "Which Indian state is home to the Khajuraho temples?",
+            "aB": "Madhya Pradesh"
+        },
+        {
+            "qA": "What is the highest common female singing voice?",
+            "aA": "Soprano",
+            "qB": "What is 141 \u00d7 2?",
+            "aB": "282"
+        },
+        {
+            "qA": "What is 24 + 24?",
+            "aA": "48",
+            "qB": "What is 52 \u00d7 2?",
+            "aB": "104"
+        },
+        {
+            "qA": "What is 56 \u00d7 2?",
+            "aA": "112",
+            "qB": "What is 37 \u00d7 2?",
+            "aB": "74"
+        },
+        {
+            "qA": "What is 223 \u00d7 2?",
+            "aA": "446",
+            "qB": "What is the unit of force?",
+            "aB": "Newton"
+        },
+        {
+            "qA": "Who painted Girl with a Pearl Earring?",
+            "aA": "Johannes Vermeer",
+            "qB": "What is the capital of Nepal?",
+            "aB": "Kathmandu"
+        },
+        {
+            "qA": "Who was the first person to walk on the Moon?",
+            "aA": "Neil Armstrong",
+            "qB": "What is 356 + 356?",
+            "aB": "712"
+        },
+        {
+            "qA": "Which state is home to the Gir National Park?",
+            "aA": "Gujarat",
+            "qB": "Which sea lies between Europe and Africa?",
+            "aB": "Mediterranean Sea"
+        },
+        {
+            "qA": "What is 299 \u00d7 2?",
+            "aA": "598",
+            "qB": "What is 227 + 227?",
+            "aB": "454"
+        },
+        {
+            "qA": "What is 50 \u00d7 2?",
+            "aA": "100",
+            "qB": "What is 44 \u00d7 2?",
+            "aB": "88"
+        },
+        {
+            "qA": "What is 147 + 147?",
+            "aA": "294",
+            "qB": "What is 177 \u00d7 2?",
+            "aB": "354"
+        },
+        {
+            "qA": "What is 244 + 244?",
+            "aA": "488",
+            "qB": "Which ocean lies south of India?",
+            "aB": "Indian Ocean"
+        },
+        {
+            "qA": "What is 275 \u00d7 2?",
+            "aA": "550",
+            "qB": "How many strings does a standard double bass have?",
+            "aB": "4"
+        },
+        {
+            "qA": "What is 21 \u00d7 2?",
+            "aA": "42",
+            "qB": "What is 127 + 127?",
+            "aB": "254"
+        },
+        {
+            "qA": "What is 387 + 387?",
+            "aA": "774",
+            "qB": "What organ is primarily responsible for breathing?",
+            "aB": "Lungs"
+        },
+        {
+            "qA": "What does PNG refer to?",
+            "aA": "An image file format",
+            "qB": "How many players are on the field for one soccer team?",
+            "aB": "11"
+        },
+        {
+            "qA": "Which country has the city of Lisbon?",
+            "aA": "Portugal",
+            "qB": "What is 161 + 161?",
+            "aB": "322"
+        },
+        {
+            "qA": "How many chambers does the human heart have?",
+            "aA": "Four",
+            "qB": "How many sides does an octagon have?",
+            "aB": "8"
+        },
+        {
+            "qA": "What is 13 \u00d7 2?",
+            "aA": "26",
+            "qB": "What is 74 + 74?",
+            "aB": "148"
+        },
+        {
+            "qA": "What is 101 + 101?",
+            "aA": "202",
+            "qB": "What is 289 \u00d7 2?",
+            "aB": "578"
+        },
+        {
+            "qA": "What is 215 \u00d7 2?",
+            "aA": "430",
+            "qB": "What is the process of planting trees to restore forests called?",
+            "aB": "Reforestation"
+        },
+        {
+            "qA": "What is 150 + 150?",
+            "aA": "300",
+            "qB": "Which country is shaped like a boot?",
+            "aB": "Italy"
+        },
+        {
+            "qA": "What is 368 + 368?",
+            "aA": "736",
+            "qB": "What is 228 + 228?",
+            "aB": "456"
+        },
+        {
+            "qA": "What is 205 \u00d7 2?",
+            "aA": "410",
+            "qB": "What is 304 + 304?",
+            "aB": "608"
+        },
+        {
+            "qA": "What is 15% of 200?",
+            "aA": "30",
+            "qB": "What is 19 + 19?",
+            "aB": "38"
+        },
+        {
+            "qA": "What is the capital of New Zealand?",
+            "aA": "Wellington",
+            "qB": "What is 216 + 216?",
+            "aB": "432"
+        },
+        {
+            "qA": "What does CPU stand for?",
+            "aA": "Central Processing Unit",
+            "qB": "What is 3 + 3?",
+            "aB": "6"
+        },
+        {
+            "qA": "Which country has the city of Quito?",
+            "aA": "Ecuador",
+            "qB": "What is 378 + 378?",
+            "aB": "756"
+        },
+        {
+            "qA": "What is 174 \u00d7 2?",
+            "aA": "348",
+            "qB": "What is 288 \u00d7 2?",
+            "aB": "576"
+        },
+        {
+            "qA": "What is 114 \u00d7 2?",
+            "aA": "228",
+            "qB": "What is the largest organ of the human body?",
+            "aB": "Skin"
+        },
+        {
+            "qA": "Which state is famous for the Konark Sun Temple?",
+            "aA": "Odisha",
+            "qB": "What is 327 + 327?",
+            "aB": "654"
+        },
+        {
+            "qA": "What is 41 \u00d7 2?",
+            "aA": "82",
+            "qB": "Which festival is known as the festival of lights?",
+            "aB": "Diwali"
+        },
+        {
+            "qA": "Which sport includes the event called the decathlon?",
+            "aA": "Athletics",
+            "qB": "What is molten rock beneath Earth's surface called?",
+            "aB": "Magma"
+        },
+        {
+            "qA": "What is 58 \u00d7 2?",
+            "aA": "116",
+            "qB": "How many strings does a standard cello have?",
+            "aB": "4"
+        },
+        {
+            "qA": "What is 220 + 220?",
+            "aA": "440",
+            "qB": "How many degrees are in a right angle?",
+            "aB": "90"
+        },
+        {
+            "qA": "What is malware?",
+            "aA": "Malicious software",
+            "qB": "What is 277 + 277?",
+            "aB": "554"
+        },
+        {
+            "qA": "Who painted Guernica?",
+            "aA": "Pablo Picasso",
+            "qB": "What is 57 + 57?",
+            "aB": "114"
+        },
+        {
+            "qA": "What is 6 \u00d7 2?",
+            "aA": "12",
+            "qB": "What is 213 \u00d7 2?",
+            "aB": "426"
+        },
+        {
+            "qA": "What is 16 + 16?",
+            "aA": "32",
+            "qB": "What is 20 \u00d7 2?",
+            "aB": "40"
+        },
+        {
+            "qA": "What is 13 + 17?",
+            "aA": "30",
+            "qB": "What is 114 + 114?",
+            "aB": "228"
+        },
+        {
+            "qA": "What is a baby frog called?",
+            "aA": "Tadpole",
+            "qB": "What is 108 \u00d7 2?",
+            "aB": "216"
+        },
+        {
+            "qA": "What is 170 + 170?",
+            "aA": "340",
+            "qB": "What is 140 + 140?",
+            "aB": "280"
+        },
+        {
+            "qA": "How many bones are in a typical adult human body?",
+            "aA": "206",
+            "qB": "What is 182 + 182?",
+            "aB": "364"
+        },
+        {
+            "qA": "What is 150 \u00d7 2?",
+            "aA": "300",
+            "qB": "Who is credited with inventing the telephone?",
+            "aB": "Alexander Graham Bell"
+        },
+        {
+            "qA": "Which classical dance form originated in Kerala?",
+            "aA": "Kathakali",
+            "qB": "What is the smallest prime number?",
+            "aB": "2"
+        },
+        {
+            "qA": "Which gas is most abundant in Earth's atmosphere?",
+            "aA": "Nitrogen",
+            "qB": "Which Indian classical music tradition is associated with northern India?",
+            "aB": "Hindustani music"
+        },
+        {
+            "qA": "What is 139 \u00d7 2?",
+            "aA": "278",
+            "qB": "What is 45 + 45?",
+            "aB": "90"
+        },
+        {
+            "qA": "What is 314 + 314?",
+            "aA": "628",
+            "qB": "What is 319 + 319?",
+            "aB": "638"
+        },
+        {
+            "qA": "What star is at the center of our solar system?",
+            "aA": "Sun",
+            "qB": "What is 186 + 186?",
+            "aB": "372"
+        },
+        {
+            "qA": "Which city is known as the Financial Capital of India?",
+            "aA": "Mumbai",
+            "qB": "What is 126 \u00d7 2?",
+            "aB": "252"
+        },
+        {
+            "qA": "What is 326 + 326?",
+            "aA": "652",
+            "qB": "What is 14 + 14?",
+            "aB": "28"
+        },
+        {
+            "qA": "What is the process by which water vapor becomes liquid water?",
+            "aA": "Condensation",
+            "qB": "Who wrote Wuthering Heights?",
+            "aB": "Emily Bront\u00eb"
+        },
+        {
+            "qA": "What is the average of 10 and 20?",
+            "aA": "15",
+            "qB": "Which Indian state is known for the Rann of Kutch?",
+            "aB": "Gujarat"
+        },
+        {
+            "qA": "What is 218 + 218?",
+            "aA": "436",
+            "qB": "What is 176 \u00d7 2?",
+            "aB": "352"
+        }
+    ],
+    "Station 8": [
+        {
+            "qA": "Which country has the city of Marrakech?",
+            "aA": "Morocco",
+            "qB": "What is 70 \u00d7 2?",
+            "aB": "140"
+        },
+        {
+            "qA": "What is the national aquatic animal of India?",
+            "aA": "Ganges river dolphin",
+            "qB": "What is 111 \u00d7 2?",
+            "aB": "222"
+        },
+        {
+            "qA": "Who wrote Malgudi Days?",
+            "aA": "R. K. Narayan",
+            "qB": "What is 335 + 335?",
+            "aB": "670"
+        },
+        {
+            "qA": "What is 179 + 179?",
+            "aA": "358",
+            "qB": "What is 290 + 290?",
+            "aB": "580"
+        },
+        {
+            "qA": "What is 224 \u00d7 2?",
+            "aA": "448",
+            "qB": "What is 40 \u00d7 2?",
+            "aB": "80"
+        },
+        {
+            "qA": "What is 288 + 288?",
+            "aA": "576",
+            "qB": "What is 223 + 223?",
+            "aB": "446"
+        },
+        {
+            "qA": "What is 9 + 9?",
+            "aA": "18",
+            "qB": "What is 119 + 119?",
+            "aB": "238"
+        },
+        {
+            "qA": "What is 36 + 36?",
+            "aA": "72",
+            "qB": "What is 127 \u00d7 2?",
+            "aB": "254"
+        },
+        {
+            "qA": "What is 52 + 52?",
+            "aA": "104",
+            "qB": "What is 90 + 90?",
+            "aB": "180"
+        },
+        {
+            "qA": "What is 95 \u00d7 2?",
+            "aA": "190",
+            "qB": "Who wrote Harry Potter?",
+            "aB": "J. K. Rowling"
+        },
+        {
+            "qA": "Who wrote The Jungle Book?",
+            "aA": "Rudyard Kipling",
+            "qB": "What is 273 + 273?",
+            "aB": "546"
+        },
+        {
+            "qA": "What is 256 \u00d7 2?",
+            "aA": "512",
+            "qB": "Which country has the city of Oslo?",
+            "aB": "Norway"
+        },
+        {
+            "qA": "What is 247 \u00d7 2?",
+            "aA": "494",
+            "qB": "What is 142 \u00d7 2?",
+            "aB": "284"
+        },
+        {
+            "qA": "Which famous scientist formulated the laws of motion?",
+            "aA": "Isaac Newton",
+            "qB": "What is 190 + 190?",
+            "aB": "380"
+        },
+        {
+            "qA": "What is the chemical symbol for gold?",
+            "aA": "Au",
+            "qB": "What is 194 + 194?",
+            "aB": "388"
+        },
+        {
+            "qA": "Which company developed the Android operating system?",
+            "aA": "Google",
+            "qB": "What is 212 \u00d7 2?",
+            "aB": "424"
+        },
+        {
+            "qA": "What is 104 + 104?",
+            "aA": "208",
+            "qB": "What is the process of converting waste into reusable material called?",
+            "aB": "Recycling"
+        },
+        {
+            "qA": "What type of energy comes from moving water?",
+            "aA": "Hydroelectric energy",
+            "qB": "What is 100 \u00d7 2?",
+            "aB": "200"
+        },
+        {
+            "qA": "What is 282 + 282?",
+            "aA": "564",
+            "qB": "What is 267 \u00d7 2?",
+            "aB": "534"
+        },
+        {
+            "qA": "Which animal is known for its black-and-white stripes?",
+            "aA": "Zebra",
+            "qB": "What gas is a major contributor to human-caused global warming?",
+            "aB": "Carbon dioxide"
+        },
+        {
+            "qA": "What is 250 + 250?",
+            "aA": "500",
+            "qB": "Which state is famous for the backwaters of Alleppey?",
+            "aB": "Kerala"
+        },
+        {
+            "qA": "What is the main source of energy driving Earth's climate system?",
+            "aA": "Sun",
+            "qB": "What is a baby cat called?",
+            "aB": "Kitten"
+        },
+        {
+            "qA": "What is 60 + 60?",
+            "aA": "120",
+            "qB": "What does HTML describe?",
+            "aB": "The structure of web pages"
+        },
+        {
+            "qA": "What instrument is used to observe distant stars?",
+            "aA": "Telescope",
+            "qB": "What is the variety of life in an ecosystem called?",
+            "aB": "Biodiversity"
+        },
+        {
+            "qA": "Which art movement is associated with Claude Monet?",
+            "aA": "Impressionism",
+            "qB": "Who wrote Jane Eyre?",
+            "aB": "Charlotte Bront\u00eb"
+        },
+        {
+            "qA": "What is 355 + 355?",
+            "aA": "710",
+            "qB": "What does HTTP stand for?",
+            "aB": "Hypertext Transfer Protocol"
+        },
+        {
+            "qA": "Which part of the eye detects light?",
+            "aA": "Retina",
+            "qB": "What is 10 cubed?",
+            "aB": "1000"
+        },
+        {
+            "qA": "What is 106 \u00d7 2?",
+            "aA": "212",
+            "qB": "What is 366 + 366?",
+            "aB": "732"
+        },
+        {
+            "qA": "What is 93 \u00d7 2?",
+            "aA": "186",
+            "qB": "What is 118 + 118?",
+            "aB": "236"
+        },
+        {
+            "qA": "What is 211 \u00d7 2?",
+            "aA": "422",
+            "qB": "Which sport has the terms strike and spare?",
+            "aB": "Bowling"
+        },
+        {
+            "qA": "What is 62 + 62?",
+            "aA": "124",
+            "qB": "What is 371 + 371?",
+            "aB": "742"
+        },
+        {
+            "qA": "What is 235 + 235?",
+            "aA": "470",
+            "qB": "What is 168 + 168?",
+            "aB": "336"
+        },
+        {
+            "qA": "What is 120 + 120?",
+            "aA": "240",
+            "qB": "What is 156 \u00d7 2?",
+            "aB": "312"
+        },
+        {
+            "qA": "What is 138 \u00d7 2?",
+            "aA": "276",
+            "qB": "What is 198 + 198?",
+            "aB": "396"
+        },
+        {
+            "qA": "How many sides does a hexagon have?",
+            "aA": "6",
+            "qB": "What is the lowest common male singing voice?",
+            "aB": "Bass"
+        },
+        {
+            "qA": "Mount Everest is part of which mountain range?",
+            "aA": "Himalayas",
+            "qB": "What is 117 + 117?",
+            "aB": "234"
+        },
+        {
+            "qA": "What is 48 \u00d7 2?",
+            "aA": "96",
+            "qB": "What is 100 + 100?",
+            "aB": "200"
+        },
+        {
+            "qA": "What is 153 \u00d7 2?",
+            "aA": "306",
+            "qB": "What is 381 + 381?",
+            "aB": "762"
+        },
+        {
+            "qA": "Which state is famous for the Sanchi Stupa?",
+            "aA": "Madhya Pradesh",
+            "qB": "What is 152 \u00d7 2?",
+            "aB": "304"
+        },
+        {
+            "qA": "Which animal is known for its long neck?",
+            "aA": "Giraffe",
+            "qB": "What is 372 + 372?",
+            "aB": "744"
+        },
+        {
+            "qA": "What is 146 + 146?",
+            "aA": "292",
+            "qB": "Which Indian state is home to the Periyar National Park?",
+            "aB": "Kerala"
+        },
+        {
+            "qA": "What is 308 + 308?",
+            "aA": "616",
+            "qB": "What is 106 + 106?",
+            "aB": "212"
+        },
+        {
+            "qA": "What is 181 \u00d7 2?",
+            "aA": "362",
+            "qB": "What is 208 \u00d7 2?",
+            "aB": "416"
+        },
+        {
+            "qA": "What is 63 \u00d7 2?",
+            "aA": "126",
+            "qB": "What is 9 \u00d7 2?",
+            "aB": "18"
+        },
+        {
+            "qA": "What is 320 + 320?",
+            "aA": "640",
+            "qB": "What is 185 + 185?",
+            "aB": "370"
+        },
+        {
+            "qA": "What is 128 \u00d7 2?",
+            "aA": "256",
+            "qB": "What is 128 + 128?",
+            "aB": "256"
+        },
+        {
+            "qA": "What is 184 \u00d7 2?",
+            "aA": "368",
+            "qB": "What is 151 + 151?",
+            "aB": "302"
+        },
+        {
+            "qA": "Which city is known as the Pink City?",
+            "aA": "Jaipur",
+            "qB": "Which civilization developed cuneiform writing?",
+            "aB": "Sumerians"
+        },
+        {
+            "qA": "Which particle has a negative electric charge?",
+            "aA": "Electron",
+            "qB": "What is 268 + 268?",
+            "aB": "536"
+        },
+        {
+            "qA": "What is 235 \u00d7 2?",
+            "aA": "470",
+            "qB": "What is 12 \u00d7 2?",
+            "aB": "24"
+        },
+        {
+            "qA": "What is 95 + 95?",
+            "aA": "190",
+            "qB": "What is 230 + 230?",
+            "aB": "460"
+        },
+        {
+            "qA": "What is the natural home of an organism called?",
+            "aA": "Habitat",
+            "qB": "Who wrote The Picture of Dorian Gray?",
+            "aB": "Oscar Wilde"
+        },
+        {
+            "qA": "Which company created the Windows operating system?",
+            "aA": "Microsoft",
+            "qB": "What is 382 + 382?",
+            "aB": "764"
+        },
+        {
+            "qA": "What is 214 \u00d7 2?",
+            "aA": "428",
+            "qB": "What is 96 + 96?",
+            "aB": "192"
+        },
+        {
+            "qA": "What is 294 \u00d7 2?",
+            "aA": "588",
+            "qB": "What is the chemical symbol for sodium?",
+            "aB": "Na"
+        },
+        {
+            "qA": "What is 184 + 184?",
+            "aA": "368",
+            "qB": "Which country has the city of Auckland?",
+            "aB": "New Zealand"
+        },
+        {
+            "qA": "Which planet is famous for its rings?",
+            "aA": "Saturn",
+            "qB": "What is 172 + 172?",
+            "aB": "344"
+        },
+        {
+            "qA": "What is 76 + 76?",
+            "aA": "152",
+            "qB": "What is 21 + 21?",
+            "aB": "42"
+        },
+        {
+            "qA": "What is 256 + 256?",
+            "aA": "512",
+            "qB": "What is 293 + 293?",
+            "aB": "586"
+        },
+        {
+            "qA": "What is 71 + 71?",
+            "aA": "142",
+            "qB": "What is an aquifer?",
+            "aB": "An underground layer that stores and transmits groundwater"
+        },
+        {
+            "qA": "Which state is famous for the Valley of Flowers?",
+            "aA": "Uttarakhand",
+            "qB": "What is 257 + 257?",
+            "aB": "514"
+        },
+        {
+            "qA": "Who painted The Scream?",
+            "aA": "Edvard Munch",
+            "qB": "What is 376 + 376?",
+            "aB": "752"
+        },
+        {
+            "qA": "What is 362 + 362?",
+            "aA": "724",
+            "qB": "What is the square root of 144?",
+            "aB": "12"
+        },
+        {
+            "qA": "Which ancient civilization built the pyramids at Giza?",
+            "aA": "Ancient Egyptians",
+            "qB": "What is 8 + 8?",
+            "aB": "16"
+        },
+        {
+            "qA": "What is 2/5 as a decimal?",
+            "aA": "0.4",
+            "qB": "What is the chemical symbol for chlorine?",
+            "aB": "Cl"
+        },
+        {
+            "qA": "What is 35 + 35?",
+            "aA": "70",
+            "qB": "What is 315 + 315?",
+            "aB": "630"
+        },
+        {
+            "qA": "What is 48 + 48?",
+            "aA": "96",
+            "qB": "Which country has the city of Brussels?",
+            "aB": "Belgium"
+        },
+        {
+            "qA": "What is 10 + 10?",
+            "aA": "20",
+            "qB": "How many pieces does each player start with in chess?",
+            "aB": "16"
+        },
+        {
+            "qA": "What color card sends a soccer player off the field?",
+            "aA": "Red",
+            "qB": "Which ancient Greek city-state is associated with the Acropolis?",
+            "aB": "Athens"
+        },
+        {
+            "qA": "What is 237 + 237?",
+            "aA": "474",
+            "qB": "What is 306 + 306?",
+            "aB": "612"
+        },
+        {
+            "qA": "What is 25% of 80?",
+            "aA": "20",
+            "qB": "What is 76 \u00d7 2?",
+            "aB": "152"
+        },
+        {
+            "qA": "What is an operating system?",
+            "aA": "Software that manages a computer's resources",
+            "qB": "What is the SI unit of frequency?",
+            "aB": "Hertz"
+        },
+        {
+            "qA": "What is 173 \u00d7 2?",
+            "aA": "346",
+            "qB": "What is 63 + 63?",
+            "aB": "126"
+        },
+        {
+            "qA": "What is 305 + 305?",
+            "aA": "610",
+            "qB": "What is 121 + 121?",
+            "aB": "242"
+        },
+        {
+            "qA": "What is the national animal of India?",
+            "aA": "Bengal tiger",
+            "qB": "What is the five-line framework used for writing Western music called?",
+            "aB": "Staff"
+        }
+    ]
+}
