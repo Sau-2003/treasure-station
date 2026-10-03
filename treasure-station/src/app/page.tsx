@@ -71,7 +71,7 @@ export default function TreasureStation() {
   };
 
   const handleResult = (isCorrect: boolean) => {
-    // Uses the correctly formatted code (e.g., "042")
+    // Uses the correctly formatted code (e.g.- "042")
     setPlayedGuests(new Set(playedGuests).add(guestCode));
 
     if (isCorrect) {
@@ -127,7 +127,7 @@ export default function TreasureStation() {
             pattern="[0-9]*"
             value={guestCode}
             onChange={(e) => setGuestCode(e.target.value)}
-            placeholder="e.g., 042"
+            placeholder="e.g. - 042"
             className="w-full p-2.5 text-center text-lg font-bold border-2 border-stone-200 rounded-lg mb-3 focus:outline-none focus:border-[#8b5a2b]"
             onKeyDown={(e) => e.key === 'Enter' && startQuestions()}
           />
