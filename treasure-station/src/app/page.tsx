@@ -54,7 +54,7 @@ export default function TreasureStation() {
     const rawCode = guestCode.trim();
     
     if (!rawCode) {
-      setErrorMsg("Please enter a guest code.");
+      setErrorMsg("Please enter a guest ID.");
       return;
     }
 
@@ -165,7 +165,7 @@ export default function TreasureStation() {
             pattern="[0-9]*"
             value={guestCode}
             onChange={(e) => setGuestCode(e.target.value)}
-            placeholder="e.g., 042"
+            placeholder="e.g. - 042"
             className="w-full p-2.5 text-center text-lg font-bold border-2 border-stone-200 rounded-lg mb-3 focus:outline-none focus:border-[#8b5a2b]"
             onKeyDown={(e) => e.key === 'Enter' && startQuestions()}
           />
