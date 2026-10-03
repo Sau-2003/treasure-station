@@ -31,13 +31,25 @@ export default function TreasureStation() {
   };
 
   const startQuestions = () => {
-    const code = guestCode.trim().toUpperCase();
+    const rawCode = guestCode.trim();
     
-    if (!code) {
+    if (!rawCode) {
       setErrorMsg("Please enter a guest code.");
       return;
     }
-    if (playedGuests.has(code)) {
+
+    // --- NEW STRICT NUMBER VALIDATION ---
+    const codeNum = parseInt(rawCode, 10);
+    if (isNaN(codeNum) || codeNum < 1 || codeNum > 75) {
+      setErrorMsg("❌ Invalid code! Enter a number from 001 to 075.");
+      return;
+    }
+
+    // Standardize to a 3-digit string (turns "5" into "005")
+    const standardizedCode = String(codeNum).padStart(3, "0");
+    setGuestCode(standardizedCode); // Update input field to show formatted code
+
+    if (playedGuests.has(standardizedCode)) {
       setErrorMsg("🚨 Stop! This guest already played here.");
       return;
     }
@@ -59,7 +71,8 @@ export default function TreasureStation() {
   };
 
   const handleResult = (isCorrect: boolean) => {
-    setPlayedGuests(new Set(playedGuests).add(guestCode.trim().toUpperCase()));
+    // Uses the correctly formatted code (e.g., "042")
+    setPlayedGuests(new Set(playedGuests).add(guestCode));
 
     if (isCorrect) {
       alert("🎉 CORRECT! Please STAMP their card!");
@@ -110,10 +123,12 @@ export default function TreasureStation() {
           <h2 className="text-base sm:text-lg font-semibold mb-3">Enter Guest Card Code</h2>
           <input
             type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
             value={guestCode}
             onChange={(e) => setGuestCode(e.target.value)}
-            placeholder="e.g. - 042"
-            className="w-full p-2.5 text-center text-lg uppercase border-2 border-stone-200 rounded-lg mb-3 focus:outline-none focus:border-[#8b5a2b]"
+            placeholder="e.g., 042"
+            className="w-full p-2.5 text-center text-lg font-bold border-2 border-stone-200 rounded-lg mb-3 focus:outline-none focus:border-[#8b5a2b]"
             onKeyDown={(e) => e.key === 'Enter' && startQuestions()}
           />
           <button
@@ -122,17 +137,16 @@ export default function TreasureStation() {
           >
             Draw Card
           </button>
-          {errorMsg && <p className="text-red-600 mt-2 text-xs font-medium">{errorMsg}</p>}
+          {errorMsg && <p className="text-red-600 mt-2 text-sm font-semibold">{errorMsg}</p>}
         </div>
       )}
 
       {step === "questions" && currentCard && (
         <div className="bg-white border border-[#f0e6d2] shadow-sm rounded-xl p-3 sm:p-5 w-full max-w-md flex flex-col gap-2 sm:gap-3">
           
-          {/* HEADER */}
           <div className="flex justify-between items-center border-b pb-1 sm:pb-2">
             <h2 className="text-base sm:text-lg">
-              Guest: <span className="font-bold text-[#8b5a2b] uppercase">{guestCode}</span>
+              Guest: <span className="font-bold text-[#8b5a2b]">{guestCode}</span>
             </h2>
             <span className="text-[10px] sm:text-xs text-stone-400 font-sans px-1.5 py-0.5 bg-stone-100 rounded">Ask A or B</span>
           </div>
