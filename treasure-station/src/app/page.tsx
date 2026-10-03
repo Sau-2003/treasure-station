@@ -127,7 +127,7 @@ export default function TreasureStation() {
     return (
       <main className="min-h-[100dvh] bg-[#fdfbf7] text-stone-800 flex flex-col items-center justify-center p-3 font-serif">
         <div className="text-center mb-4">
-          <h1 className="text-2xl sm:text-3xl font-bold text-[#8b5a2b] mb-1">💍 Treasure Station</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-[#8b5a2b] mb-1">Treasure Station</h1>
           <p className="italic text-xs sm:text-sm text-stone-500">Volunteer Setup</p>
         </div>
         <div className="bg-white border border-[#f0e6d2] shadow-sm rounded-xl p-4 w-full max-w-sm text-center">
