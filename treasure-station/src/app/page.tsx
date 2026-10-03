@@ -1,7 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { createClient } from "@supabase/supabase-js";
 import rawStationData from "../data/questions.json"; 
+
+// Initialize Supabase
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 interface Card {
   qA: string;
@@ -21,13 +27,27 @@ export default function TreasureStation() {
   const [availableCards, setAvailableCards] = useState<Card[]>([]);
   const [playedGuests, setPlayedGuests] = useState<Set<string>>(new Set());
   const [currentCard, setCurrentCard] = useState<Card | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
   
   const [showAnswerA, setShowAnswerA] = useState(false);
   const [showAnswerB, setShowAnswerB] = useState(false);
 
-  const handleSelectStation = (stationName: string) => {
+  const handleSelectStation = async (stationName: string) => {
+    setIsLoading(true);
     setActiveStation(stationName);
     setAvailableCards([...stationData[stationName]]); 
+    
+    // Fetch guests who already played at THIS station from Supabase
+    const { data, error } = await supabase
+      .from("station_guests")
+      .select("guest_code")
+      .eq("station_name", stationName);
+      
+    if (data) {
+      const existingGuests = new Set(data.map(row => row.guest_code));
+      setPlayedGuests(existingGuests);
+    }
+    setIsLoading(false);
   };
 
   const startQuestions = () => {
@@ -38,16 +58,14 @@ export default function TreasureStation() {
       return;
     }
 
-    // --- NEW STRICT NUMBER VALIDATION ---
     const codeNum = parseInt(rawCode, 10);
     if (isNaN(codeNum) || codeNum < 1 || codeNum > 75) {
       setErrorMsg("❌ Invalid code! Enter a number from 001 to 075.");
       return;
     }
 
-    // Standardize to a 3-digit string (turns "5" into "005")
     const standardizedCode = String(codeNum).padStart(3, "0");
-    setGuestCode(standardizedCode); // Update input field to show formatted code
+    setGuestCode(standardizedCode); 
 
     if (playedGuests.has(standardizedCode)) {
       setErrorMsg("🚨 Stop! This guest already played here.");
@@ -70,9 +88,29 @@ export default function TreasureStation() {
     setStep("questions");
   };
 
-  const handleResult = (isCorrect: boolean) => {
-    // Uses the correctly formatted code (e.g.- "042")
-    setPlayedGuests(new Set(playedGuests).add(guestCode));
+  const handleResult = async (isCorrect: boolean) => {
+    setIsLoading(true);
+    const finalCode = guestCode;
+
+    // Save to Supabase
+    const { error } = await supabase
+      .from("station_guests")
+      .insert([
+        {
+          station_name: activeStation,
+          guest_code: finalCode,
+          is_correct: isCorrect
+        }
+      ]);
+
+    if (error) {
+      alert("Error saving data. Please check your connection.");
+      setIsLoading(false);
+      return;
+    }
+
+    // Update local state
+    setPlayedGuests(new Set(playedGuests).add(finalCode));
 
     if (isCorrect) {
       alert("🎉 CORRECT! Please STAMP their card!");
@@ -82,9 +120,9 @@ export default function TreasureStation() {
 
     setGuestCode("");
     setStep("login");
+    setIsLoading(false);
   };
 
-  // --- UI: RENDER STATION SELECTOR FIRST ---
   if (!activeStation) {
     return (
       <main className="min-h-[100dvh] bg-[#fdfbf7] text-stone-800 flex flex-col items-center justify-center p-3 font-serif">
@@ -99,9 +137,10 @@ export default function TreasureStation() {
               <button
                 key={stationName}
                 onClick={() => handleSelectStation(stationName)}
-                className="bg-[#8b5a2b] hover:bg-[#704822] text-white text-sm sm:text-base font-semibold py-2.5 px-4 rounded-lg transition-colors w-full"
+                disabled={isLoading}
+                className="bg-[#8b5a2b] hover:bg-[#704822] text-white text-sm sm:text-base font-semibold py-2.5 px-4 rounded-lg transition-colors w-full disabled:opacity-50"
               >
-                {stationName}
+                {isLoading ? "Loading..." : stationName}
               </button>
             ))}
           </div>
@@ -110,7 +149,6 @@ export default function TreasureStation() {
     );
   }
 
-  // --- UI: RENDER MAIN DASHBOARD ONCE STATION IS SELECTED ---
   return (
     <main className="min-h-[100dvh] bg-[#fdfbf7] text-stone-800 flex flex-col items-center justify-center p-2 sm:p-4 font-serif">
       <div className="text-center mb-2 sm:mb-4">
@@ -127,7 +165,7 @@ export default function TreasureStation() {
             pattern="[0-9]*"
             value={guestCode}
             onChange={(e) => setGuestCode(e.target.value)}
-            placeholder="e.g. - 042"
+            placeholder="e.g., 042"
             className="w-full p-2.5 text-center text-lg font-bold border-2 border-stone-200 rounded-lg mb-3 focus:outline-none focus:border-[#8b5a2b]"
             onKeyDown={(e) => e.key === 'Enter' && startQuestions()}
           />
@@ -151,59 +189,46 @@ export default function TreasureStation() {
             <span className="text-[10px] sm:text-xs text-stone-400 font-sans px-1.5 py-0.5 bg-stone-100 rounded">Ask A or B</span>
           </div>
 
-          {/* QUESTION A BOX */}
           <div className="bg-stone-50 p-2 sm:p-3 rounded-lg border-l-4 border-[#8b5a2b]">
             <p className="font-bold mb-0.5 text-xs sm:text-sm">Question A:</p>
             <p className="mb-1.5 text-xs sm:text-sm leading-tight">{currentCard.qA}</p>
-            
             <button 
               onClick={() => setShowAnswerA(!showAnswerA)}
               className="bg-stone-200 hover:bg-stone-300 text-stone-700 text-[10px] sm:text-xs font-semibold py-1 px-2 rounded transition-colors"
             >
               {showAnswerA ? "Hide Answer" : "Reveal Answer"}
             </button>
-            
-            {showAnswerA && (
-              <p className="text-[#8b5a2b] font-bold text-sm sm:text-base border-t border-stone-200 pt-1 mt-1.5">
-                Answer: {currentCard.aA}
-              </p>
-            )}
+            {showAnswerA && <p className="text-[#8b5a2b] font-bold text-sm sm:text-base border-t border-stone-200 pt-1 mt-1.5">Answer: {currentCard.aA}</p>}
           </div>
 
           <div className="text-center font-bold text-stone-400 text-xs sm:text-sm my-0">OR</div>
 
-          {/* QUESTION B BOX */}
           <div className="bg-stone-50 p-2 sm:p-3 rounded-lg border-l-4 border-[#8b5a2b]">
             <p className="font-bold mb-0.5 text-xs sm:text-sm">Question B:</p>
             <p className="mb-1.5 text-xs sm:text-sm leading-tight">{currentCard.qB}</p>
-            
             <button 
               onClick={() => setShowAnswerB(!showAnswerB)}
               className="bg-stone-200 hover:bg-stone-300 text-stone-700 text-[10px] sm:text-xs font-semibold py-1 px-2 rounded transition-colors"
             >
               {showAnswerB ? "Hide Answer" : "Reveal Answer"}
             </button>
-            
-            {showAnswerB && (
-              <p className="text-[#8b5a2b] font-bold text-sm sm:text-base border-t border-stone-200 pt-1 mt-1.5">
-                Answer: {currentCard.aB}
-              </p>
-            )}
+            {showAnswerB && <p className="text-[#8b5a2b] font-bold text-sm sm:text-base border-t border-stone-200 pt-1 mt-1.5">Answer: {currentCard.aB}</p>}
           </div>
 
-          {/* RESULTS BUTTONS */}
           <div className="mt-1">
             <h3 className="font-semibold text-center mb-1.5 text-xs sm:text-sm">Did they answer correctly?</h3>
             <div className="flex flex-row gap-2">
               <button
+                disabled={isLoading}
                 onClick={() => handleResult(true)}
-                className="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 rounded-lg text-xs sm:text-sm"
+                className="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 rounded-lg text-xs sm:text-sm disabled:opacity-50"
               >
                 ✅ YES
               </button>
               <button
+                disabled={isLoading}
                 onClick={() => handleResult(false)}
-                className="flex-1 bg-red-500 hover:bg-red-600 text-white font-bold py-2 rounded-lg text-xs sm:text-sm"
+                className="flex-1 bg-red-500 hover:bg-red-600 text-white font-bold py-2 rounded-lg text-xs sm:text-sm disabled:opacity-50"
               >
                 ❌ NO
               </button>
