@@ -123,9 +123,7 @@ export default function AdminLayout({ children }) {
         </div>
         
         <nav className="flex-1 p-4 space-y-2 overflow-y-auto">
-          <Link href="/admin" className={`block p-3 rounded transition-colors ${pathname === '/admin' ? 'bg-blue-600' : 'hover:bg-gray-800'}`}>Dashboard</Link>
-          <Link href="/admin/cards" className={`block p-3 rounded transition-colors ${pathname === '/admin/cards' ? 'bg-blue-600' : 'hover:bg-gray-800'}`}>Manage Cards</Link>
-          <Link href="/admin/guests" className={`block p-3 rounded transition-colors ${pathname === '/admin/guests' ? 'bg-blue-600' : 'hover:bg-gray-800'}`}>Manage Guests</Link>
+          <Link href="/admin" className={`block p-3 rounded transition-colors ${pathname === '/admin' ? 'bg-blue-600' : 'hover:bg-gray-800'}`}>Manage Guests</Link>
           <Link href="/admin/phones" className={`block p-3 rounded transition-colors ${pathname === '/admin/phones' ? 'bg-blue-600' : 'hover:bg-gray-800'}`}>Manage Admins</Link>
         </nav>
         
