@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link"; 
 import { createClient } from "@supabase/supabase-js";
 import rawStationData from "../data/questions.json"; 
 
-// Initialize Supabase
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
@@ -32,12 +32,19 @@ export default function TreasureStation() {
   const [showAnswerA, setShowAnswerA] = useState(false);
   const [showAnswerB, setShowAnswerB] = useState(false);
 
+  const handleBackToStations = () => {
+    setActiveStation(null);
+    setStep("login");
+    setGuestCode("");
+    setCurrentCard(null);
+    setErrorMsg("");
+  };
+
   const handleSelectStation = async (stationName: string) => {
     setIsLoading(true);
     setActiveStation(stationName);
     setAvailableCards([...stationData[stationName]]); 
     
-    // Fetch guests who already played at THIS station from Supabase
     const { data, error } = await supabase
       .from("station_guests")
       .select("guest_code")
@@ -92,7 +99,6 @@ export default function TreasureStation() {
     setIsLoading(true);
     const finalCode = guestCode;
 
-    // Save to Supabase
     const { error } = await supabase
       .from("station_guests")
       .insert([
@@ -109,13 +115,12 @@ export default function TreasureStation() {
       return;
     }
 
-    // Update local state
     setPlayedGuests(new Set(playedGuests).add(finalCode));
 
     if (isCorrect) {
-      alert("🎉 CORRECT! Please STAMP their card!");
+      alert("🎉 CORRECT! Please Punch their card!");
     } else {
-      alert("❌ INCORRECT. Do not give a stamp.");
+      alert("❌ INCORRECT. Do not give a Punch.");
     }
 
     setGuestCode("");
@@ -127,9 +132,12 @@ export default function TreasureStation() {
     return (
       <main className="min-h-[100dvh] bg-[#fdfbf7] text-stone-800 flex flex-col items-center justify-center p-3 font-serif">
         <div className="text-center mb-4">
-          <h1 className="text-2xl sm:text-3xl font-bold text-[#8b5a2b] mb-1">Treasure Station</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-[#8b5a2b] mb-1">
+            Treasure Station
+          </h1>
           <p className="italic text-xs sm:text-sm text-stone-500">Volunteer Setup</p>
         </div>
+        
         <div className="bg-white border border-[#f0e6d2] shadow-sm rounded-xl p-4 w-full max-w-sm text-center">
           <h2 className="text-lg sm:text-xl font-semibold mb-4">Select Your Station</h2>
           <div className="flex flex-col gap-2 max-h-[50vh] overflow-y-auto px-1">
@@ -144,14 +152,32 @@ export default function TreasureStation() {
               </button>
             ))}
           </div>
+          
+          {/* ✅ ADMIN ACCESS LINK VISIBLE AGAIN */}
+          <div className="mt-6 pt-4 border-t border-stone-100">
+            <Link 
+              href="/admin" 
+              className="text-xs text-stone-400 hover:text-[#8b5a2b] underline transition-colors"
+            >
+              Admin Access
+            </Link>
+          </div>
         </div>
       </main>
     );
   }
 
   return (
-    <main className="min-h-[100dvh] bg-[#fdfbf7] text-stone-800 flex flex-col items-center justify-center p-2 sm:p-4 font-serif">
-      <div className="text-center mb-2 sm:mb-4">
+    <main className="min-h-[100dvh] bg-[#fdfbf7] text-stone-800 flex flex-col items-center justify-center p-2 sm:p-4 font-serif relative">
+      
+      <button 
+        onClick={handleBackToStations}
+        className="absolute top-4 left-4 sm:top-6 sm:left-6 text-stone-400 hover:text-[#8b5a2b] flex items-center gap-1 text-sm font-sans transition-colors font-semibold"
+      >
+        ← Change Station
+      </button>
+
+      <div className="text-center mb-2 sm:mb-4 mt-8 sm:mt-0">
         <h1 className="text-xl sm:text-2xl font-bold text-[#8b5a2b] mb-0.5">{activeStation}</h1>
         <p className="italic text-xs text-stone-500">Dashboard ({availableCards.length} cards left)</p>
       </div>
