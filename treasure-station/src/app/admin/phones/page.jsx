@@ -4,6 +4,9 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { createClient } from '@supabase/supabase-js';
 
+//  SET YOUR UNTOUCHABLE MASTER ADMIN NUMBER HERE TOO
+const MASTER_ADMIN = "8889726554";
+
 // Initialize Supabase
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
@@ -27,7 +30,13 @@ export default function ManagePhones() {
         console.error(error);
         setMessage('Error loading admin phone numbers.');
       } else {
-        setPhones(data || []);
+        // Automatically inject the Master Admin into the UI if it isn't in the database
+        const hasMaster = data?.some(p => p.phone_number === MASTER_ADMIN);
+        const displayData = data || [];
+        if (!hasMaster) {
+          displayData.unshift({ id: 'master', phone_number: MASTER_ADMIN });
+        }
+        setPhones(displayData);
       }
       setLoading(false);
     };
@@ -64,6 +73,12 @@ export default function ManagePhones() {
 
   // Remove a phone number
   const handleDelete = async (id, phoneStr) => {
+    // 🛡️ Extra security check just in case
+    if (phoneStr === MASTER_ADMIN || id === 'master') {
+      alert("Action denied: You cannot revoke the Master Admin's access.");
+      return;
+    }
+
     if (!window.confirm(`Are you sure you want to remove ${phoneStr} from the admin list?`)) return;
 
     setMessage('Removing...');
@@ -84,18 +99,17 @@ export default function ManagePhones() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      {/* 🔙 GO BACK BUTTON */}
       <Link 
         href="/admin" 
         className="text-gray-500 hover:text-blue-600 mb-6 inline-flex items-center gap-2 font-medium transition-colors"
       >
-        &larr; Go Back to Guest access management
+        &larr; Go Back to Dashboard
       </Link>
       
       <h1 className="text-3xl font-bold text-gray-800 mb-6">Manage Admin Access</h1>
 
       {message && (
-        <div className={`p-3 rounded mb-6 font-medium ${message.includes('Error') || message.includes('⚠️') ? 'bg-red-100 text-red-800' : 'bg-blue-100 text-blue-800'}`}>
+        <div className={`p-3 rounded mb-6 font-medium ${message.includes('Error') || message.includes('⚠️️') ? 'bg-red-100 text-red-800' : 'bg-blue-100 text-blue-800'}`}>
           {message}
         </div>
       )}
@@ -128,12 +142,20 @@ export default function ManagePhones() {
           {phones.map((phone) => (
             <li key={phone.id} className="flex justify-between items-center p-4 hover:bg-gray-50">
               <span className="font-bold text-lg text-gray-700 tracking-widest">{phone.phone_number}</span>
-              <button
-                onClick={() => handleDelete(phone.id, phone.phone_number)}
-                className="text-white bg-red-500 hover:bg-red-600 px-4 py-2 rounded text-sm font-medium transition-colors"
-              >
-                Revoke Access
-              </button>
+              
+              {/* ✅ CONDITIONAL RENDERING: Don't show Delete button for Master Admin */}
+              {phone.phone_number === MASTER_ADMIN ? (
+                <span className="bg-amber-100 text-amber-800 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">
+                  Master Admin
+                </span>
+              ) : (
+                <button
+                  onClick={() => handleDelete(phone.id, phone.phone_number)}
+                  className="text-white bg-red-500 hover:bg-red-600 px-4 py-2 rounded text-sm font-medium transition-colors"
+                >
+                  Revoke Access
+                </button>
+              )}
             </li>
           ))}
         </ul>
