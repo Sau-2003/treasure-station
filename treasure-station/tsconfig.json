@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "src/app/admin/page.jsx"  ],
+, "src/app/admin/guests/page.jsx"  ],
   "exclude": ["node_modules"]
 }

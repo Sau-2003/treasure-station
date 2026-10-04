@@ -103,7 +103,7 @@ export default function ManagePhones() {
         href="/admin" 
         className="text-gray-500 hover:text-blue-600 mb-6 inline-flex items-center gap-2 font-medium transition-colors"
       >
-        &larr; Go Back to Dashboard
+        &larr; Go Back to Guests Management
       </Link>
       
       <h1 className="text-3xl font-bold text-gray-800 mb-6">Manage Admin Access</h1>
