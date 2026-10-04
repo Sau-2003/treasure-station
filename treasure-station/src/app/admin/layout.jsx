@@ -5,15 +5,14 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { createClient } from '@supabase/supabase-js';
 
-// 👑 SET YOUR UNTOUCHABLE MASTER ADMIN NUMBER HERE
-const MASTER_ADMIN = "8889726654";
+// 👑 FIXED: Number is now exactly 8889726554
+const MASTER_ADMIN = "8889726554";
 
 // Initialize Supabase
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-// ✅ HELPER FUNCTION: Capitalize each word (e.g., "john doe" -> "John Doe")
 const capitalizeName = (str) => {
   if (!str) return '';
   return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
@@ -51,7 +50,6 @@ export default function AdminLayout({ children }) {
   const handleLogin = async (e) => {
     e.preventDefault();
     const cleanPhone = phoneInput.trim();
-    // ✅ Capitalize the typed name automatically
     const cleanName = capitalizeName(nameInput.trim()) || 'Admin'; 
     setIsCheckingLogin(true);
 
@@ -72,7 +70,6 @@ export default function AdminLayout({ children }) {
       .single();
 
     if (data) {
-      // ✅ Capitalize name from DB or the typed name
       const finalName = nameInput.trim() ? cleanName : capitalizeName(data.name || 'Volunteer Admin');
       
       setIsAuthenticated(true);
@@ -159,7 +156,6 @@ export default function AdminLayout({ children }) {
         <div className="p-4 border-t border-gray-800">
           <div className="bg-gray-800 p-3 rounded mb-3">
             <p className="text-gray-400 text-xs font-bold mb-1">LOGGED IN AS</p>
-            {/* ✅ Displays capitalized name */}
             <p className="font-bold text-white">{adminData.name}</p>
             <p className="text-gray-400 text-sm">{adminData.phone}</p>
           </div>

@@ -4,15 +4,13 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { createClient } from '@supabase/supabase-js';
 
-// 👑 SET YOUR UNTOUCHABLE MASTER ADMIN NUMBER HERE TOO
+// 👑 FIXED: Number is exactly 8889726554
 const MASTER_ADMIN = "8889726554";
 
-// Initialize Supabase
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-// ✅ HELPER FUNCTION: Capitalize each word
 const capitalizeName = (str) => {
   if (!str) return '';
   return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
@@ -52,7 +50,6 @@ export default function ManagePhones() {
   const handleAddPhone = async (e) => {
     e.preventDefault();
     const cleanPhone = newPhone.trim();
-    // ✅ Capitalize the name right before saving to Supabase
     const cleanName = capitalizeName(newName.trim()) || 'Volunteer Admin'; 
     
     if (!cleanPhone) return;
@@ -147,7 +144,6 @@ export default function ManagePhones() {
           {phones.map((phone) => (
             <li key={phone.id} className="flex justify-between items-center p-4 hover:bg-gray-50">
               <div>
-                {/* ✅ Force capitalization on render just in case old database entries were lowercase */}
                 <p className="font-bold text-lg text-gray-800">{capitalizeName(phone.name || 'Volunteer Admin')}</p>
                 <p className="text-gray-500 font-mono text-sm tracking-widest">{phone.phone_number}</p>
               </div>
